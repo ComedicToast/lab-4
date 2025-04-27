@@ -1,0 +1,143 @@
+country,pct_vaccines_safe,Region
+Afghanistan,0.9423702013900543,Asia
+Albania,0.6383839730124001,Europe
+Algeria,0.630204769898109,Middle East and North Africa
+Argentina,0.8767938958595356,Americas
+Armenia,0.42016421814081034,Asia
+Australia,0.8332962560295303,Asia
+Austria,0.548592406123656,Europe
+Azerbaijan,0.6339330828609149,Asia
+Bangladesh,0.9790823204146358,Asia
+Belarus,0.3631982502368123,Former Soviet Union
+Belgium,0.6271028787957234,Europe
+Benin,0.8180269815896852,Africa
+Bolivia,0.7419606175753176,Americas
+Bosnia and Herzegovina,0.7028352916792995,Europe
+Botswana,0.7941785941657024,Africa
+Brazil,0.7998103720482848,Americas
+Bulgaria,0.3954659856964611,Former Soviet Union
+Burkina Faso,0.6802213453222018,Africa
+Burundi,0.8751567521358754,Africa
+Cambodia,0.876030280929837,Asia
+Cameroon,0.77104957073413,Africa
+Canada,0.7643792008783675,Americas
+Chad,0.8113775922364721,Africa
+Chile,0.7419019875463864,Americas
+China,0.7229322724241933,Asia
+Colombia,0.8194123131090988,Americas
+Comoros,0.8925248139992082,Africa
+Costa Rica,0.8636932242108252,Americas
+Croatia,0.5677457913838703,Europe
+Cyprus,0.621991964541309,Europe
+Czech Republic,0.6404283543664014,Former Soviet Union
+Denmark,0.6977371729818083,Europe
+Dominican Republic,0.8944088704882527,Americas
+Ecuador,0.8587054365144184,Americas
+Egypt,0.9715369230199258,Middle East and North Africa
+El Salvador,0.7796172391992084,Americas
+Estonia,0.5021347152519056,Europe
+Ethiopia,0.961275399818322,Africa
+Finland,0.7284051343222542,Europe
+France,0.47036260050995615,Europe
+Gabon,0.6264785774529134,Africa
+Georgia,0.694996618526878,Asia
+Germany,0.6715740011138055,Europe
+Ghana,0.8718449313993951,Africa
+Greece,0.7851626393703378,Europe
+Guatemala,0.8726356487634085,Americas
+Guinea,0.7828265399096267,Africa
+Haiti,0.7162930719227174,Americas
+Honduras,0.8917671284669678,Americas
+Hungary,0.7669854953414537,Former Soviet Union
+Iceland,0.606767277115234,Europe
+India,0.9544130778372519,Asia
+Indonesia,0.8350510670750568,Asia
+Iran,0.6851595654915216,Middle East and North Africa
+Iraq,0.8996511468177435,Middle East and North Africa
+Ireland,0.7345047239601956,Europe
+Israel,0.7558244767114192,Middle East and North Africa
+Italy,0.7569166718705529,Europe
+Ivory Coast,0.7695228842604246,Africa
+Japan,0.3399302620533886,Asia
+Jordan,0.9198920648209588,Middle East and North Africa
+Kazakhstan,0.4571756253160751,Asia
+Kenya,0.8923351746424262,Africa
+Kosovo,0.7126989888128604,Europe
+Kuwait,0.8685452771074339,Middle East and North Africa
+Kyrgyzstan,0.6783130848890405,Asia
+Laos,0.9238492746458074,Asia
+Latvia,0.4545748506299581,Europe
+Lebanon,0.8369318336792787,Middle East and North Africa
+Liberia,0.9601272648630654,Africa
+Libya,0.7392569378005135,Middle East and North Africa
+Lithuania,0.5237598497476371,Europe
+Luxembourg,0.7082599285437224,Europe
+Macedonia,0.5361418004273041,Europe
+Madagascar,0.8537612575844635,Africa
+Malawi,0.9173364064288609,Africa
+Malaysia,0.9089023357863647,Asia
+Mali,0.6550021114178353,Africa
+Malta,0.7949439766129287,Europe
+Mauritania,0.7421991728078315,Africa
+Mauritius,0.6293665163535612,Africa
+Mexico,0.8897181011185947,Americas
+Moldova,0.44338382834558665,Former Soviet Union
+Mongolia,0.7443747462324681,Asia
+Montenegro,0.4435211798409122,Europe
+Morocco,0.7986947394213185,Middle East and North Africa
+Mozambique,0.9118510944467804,Africa
+Myanmar,0.9149710827368016,Asia
+Namibia,0.8354229489825749,Africa
+Nepal,0.9211685934424472,Asia
+Netherlands,0.6763927552180102,Europe
+New Zealand,0.7210683775160289,Asia
+Nicaragua,0.928753492209603,Americas
+Niger,0.8676437259159018,Africa
+Nigeria,0.9114849162612723,Africa
+Northern Cyprus,0.8754796098635004,Europe
+Norway,0.8320643863882926,Europe
+Pakistan,0.8746708615328552,Asia
+Panama,0.8701179180461405,Americas
+Paraguay,0.7771853638598835,Americas
+Peru,0.7020276962283174,Americas
+Philippines,0.7873598855708961,Asia
+Poland,0.7759000687589991,Former Soviet Union
+Portugal,0.8076637384222118,Europe
+Romania,0.6521081461358071,Former Soviet Union
+Russia,0.4463316828097059,Former Soviet Union
+Rwanda,0.9353981408011192,Africa
+Saudi Arabia,0.8451071615659518,Middle East and North Africa
+Senegal,0.733648279178559,Africa
+Serbia,0.6595616366626826,Europe
+Sierra Leone,0.9275960826817952,Africa
+Singapore,0.7619201144970944,Asia
+Slovakia,0.7324740637029271,Former Soviet Union
+Slovenia,0.7026216267071237,Europe
+South Africa,0.8231987859786722,Africa
+South Korea,0.4865487800769757,Asia
+Spain,0.7964759426207985,Europe
+Sri Lanka,0.8648181964306899,Asia
+Eswatini,0.7558018850987722,Africa
+Sweden,0.6984934992582077,Europe
+Switzerland,0.5264549204053768,Europe
+Taiwan,0.5660420010968811,Asia
+Tajikistan,0.9132556177285437,Asia
+Tanzania,0.9553248557705468,Africa
+Thailand,0.9258005103790817,Asia
+The Gambia,0.8750210734310425,Africa
+Togo,0.5116570541773132,Africa
+Tunisia,0.772538258435147,Middle East and North Africa
+Turkey,0.8179293168301862,Middle East and North Africa
+Turkmenistan,0.8572975255752376,Asia
+Uganda,0.855233669479714,Africa
+Ukraine,0.2928529389888846,Former Soviet Union
+United Arab Emirates,0.8358233724005042,Middle East and North Africa
+United Kingdom,0.7515199259727092,Europe
+United States,0.7209093656899119,Americas
+Uruguay,0.7239453213121861,Americas
+Uzbekistan,0.9234588999880313,Asia
+Venezuela,0.9222134241769857,Americas
+Vietnam,0.7084443302196088,Asia
+Yemen,0.8421886744738257,Middle East and North Africa
+Zambia,0.8054475526699446,Africa
+Zimbabwe,0.8514194335951919,Africa

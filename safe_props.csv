@@ -1,0 +1,863 @@
+Country,Response,Weighted_prop,Unweighted count
+Afghanistan,Strongly agree,0.7241,719
+Afghanistan,Somewhat agree,0.2183,216
+Afghanistan,Neither agree nor disagree,0.0077,7
+Afghanistan,Somewhat disagree,0.0355,35
+Afghanistan,Strongly disagree,0.0092,10
+Afghanistan,Don't know/Refused,0.0052,6
+Albania,Strongly agree,0.4944,403
+Albania,Somewhat agree,0.144,117
+Albania,Neither agree nor disagree,0.1495,139
+Albania,Somewhat disagree,0.1101,88
+Albania,Strongly disagree,0.0484,42
+Albania,Don't know/Refused,0.0537,56
+Algeria,Strongly agree,0.4276,416
+Algeria,Somewhat agree,0.2026,191
+Algeria,Neither agree nor disagree,0.1868,172
+Algeria,Somewhat disagree,0.0769,70
+Algeria,Strongly disagree,0.0359,30
+Algeria,Don't know/Refused,0.0702,56
+Argentina,Strongly agree,0.7667,734
+Argentina,Somewhat agree,0.1101,106
+Argentina,Neither agree nor disagree,0.0622,63
+Argentina,Somewhat disagree,0.0353,34
+Argentina,Strongly disagree,0.0132,11
+Argentina,Don't know/Refused,0.0126,16
+Armenia,Strongly agree,0.2138,187
+Armenia,Somewhat agree,0.2064,195
+Armenia,Neither agree nor disagree,0.2611,218
+Armenia,Somewhat disagree,0.1259,106
+Armenia,Strongly disagree,0.0798,76
+Armenia,Don't know/Refused,0.1131,95
+Australia,Strongly agree,0.6099,628
+Australia,Somewhat agree,0.2233,209
+Australia,Neither agree nor disagree,0.0834,70
+Australia,Somewhat disagree,0.0354,35
+Australia,Strongly disagree,0.0336,24
+Australia,Don't know/Refused,0.0142,16
+Austria,Strongly agree,0.3367,299
+Austria,Somewhat agree,0.2119,195
+Austria,Neither agree nor disagree,0.2265,194
+Austria,Somewhat disagree,0.1291,118
+Austria,Strongly disagree,0.0814,68
+Austria,Don't know/Refused,0.0144,12
+Azerbaijan,Strongly agree,0.4636,437
+Azerbaijan,Somewhat agree,0.1703,145
+Azerbaijan,Neither agree nor disagree,0.1657,156
+Azerbaijan,Somewhat disagree,0.0672,60
+Azerbaijan,Strongly disagree,0.0451,39
+Azerbaijan,Don't know/Refused,0.0881,80
+Bangladesh,Strongly agree,0.9446,923
+Bangladesh,Somewhat agree,0.0345,36
+Bangladesh,Neither agree nor disagree,0.0061,8
+Bangladesh,Somewhat disagree,0.0032,3
+Bangladesh,Strongly disagree,0.0059,5
+Bangladesh,Don't know/Refused,0.0057,7
+Belarus,Strongly agree,0.2416,254
+Belarus,Somewhat agree,0.1216,121
+Belarus,Neither agree nor disagree,0.3731,382
+Belarus,Somewhat disagree,0.1066,107
+Belarus,Strongly disagree,0.0412,46
+Belarus,Don't know/Refused,0.116,83
+Belgium,Strongly agree,0.4639,419
+Belgium,Somewhat agree,0.1632,153
+Belgium,Neither agree nor disagree,0.1536,153
+Belgium,Somewhat disagree,0.1265,127
+Belgium,Strongly disagree,0.0799,75
+Belgium,Don't know/Refused,0.0129,13
+Benin,Strongly agree,0.636,489
+Benin,Somewhat agree,0.182,159
+Benin,Neither agree nor disagree,0.026,27
+Benin,Somewhat disagree,0.0711,67
+Benin,Strongly disagree,0.0691,54
+Benin,Don't know/Refused,0.0157,8
+Bolivia,Strongly agree,0.4964,473
+Bolivia,Somewhat agree,0.2456,225
+Bolivia,Neither agree nor disagree,0.1009,83
+Bolivia,Somewhat disagree,0.096,86
+Bolivia,Strongly disagree,0.035,28
+Bolivia,Don't know/Refused,0.0261,33
+Bosnia and Herzegovina,Strongly agree,0.5626,531
+Bosnia and Herzegovina,Somewhat agree,0.1402,123
+Bosnia and Herzegovina,Neither agree nor disagree,0.19,176
+Bosnia and Herzegovina,Somewhat disagree,0.0413,40
+Bosnia and Herzegovina,Strongly disagree,0.0417,33
+Bosnia and Herzegovina,Don't know/Refused,0.0242,20
+Botswana,Strongly agree,0.7496,306
+Botswana,Somewhat agree,0.0446,27
+Botswana,Neither agree nor disagree,0.0794,26
+Botswana,Somewhat disagree,0.0476,22
+Botswana,Strongly disagree,0.0424,16
+Botswana,Don't know/Refused,0.0364,15
+Brazil,Strongly agree,0.6143,599
+Brazil,Somewhat agree,0.1855,171
+Brazil,Neither agree nor disagree,0.0876,72
+Brazil,Somewhat disagree,0.076,73
+Brazil,Strongly disagree,0.0145,15
+Brazil,Don't know/Refused,0.0221,19
+Bulgaria,Strongly agree,0.2796,255
+Bulgaria,Somewhat agree,0.1159,113
+Bulgaria,Neither agree nor disagree,0.3486,343
+Bulgaria,Somewhat disagree,0.1034,92
+Bulgaria,Strongly disagree,0.0528,52
+Bulgaria,Don't know/Refused,0.0998,79
+Burkina Faso,Strongly agree,0.5555,450
+Burkina Faso,Somewhat agree,0.1247,130
+Burkina Faso,Neither agree nor disagree,0.0561,58
+Burkina Faso,Somewhat disagree,0.1143,114
+Burkina Faso,Strongly disagree,0.0932,67
+Burkina Faso,Don't know/Refused,0.0561,35
+Burundi,Strongly agree,0.8145,759
+Burundi,Somewhat agree,0.0606,57
+Burundi,Neither agree nor disagree,0.0072,7
+Burundi,Somewhat disagree,0.0363,32
+Burundi,Strongly disagree,0.029,22
+Burundi,Don't know/Refused,0.0523,45
+Cambodia,Strongly agree,0.5733,524
+Cambodia,Somewhat agree,0.3028,270
+Cambodia,Neither agree nor disagree,0.0173,14
+Cambodia,Somewhat disagree,0.0637,39
+Cambodia,Strongly disagree,0.0117,8
+Cambodia,Don't know/Refused,0.0312,29
+Cameroon,Strongly agree,0.579,519
+Cameroon,Somewhat agree,0.1921,165
+Cameroon,Neither agree nor disagree,0.0468,64
+Cameroon,Somewhat disagree,0.0747,81
+Cameroon,Strongly disagree,0.0564,64
+Cameroon,Don't know/Refused,0.0511,52
+Canada,Strongly agree,0.5313,528
+Canada,Somewhat agree,0.2331,231
+Canada,Neither agree nor disagree,0.1447,138
+Canada,Somewhat disagree,0.0553,51
+Canada,Strongly disagree,0.028,32
+Canada,Don't know/Refused,0.0077,11
+Chad,Strongly agree,0.5737,438
+Chad,Somewhat agree,0.2377,162
+Chad,Neither agree nor disagree,0.0347,23
+Chad,Somewhat disagree,0.0525,49
+Chad,Strongly disagree,0.048,36
+Chad,Don't know/Refused,0.0534,31
+Chile,Strongly agree,0.6072,570
+Chile,Somewhat agree,0.1347,119
+Chile,Neither agree nor disagree,0.1238,105
+Chile,Somewhat disagree,0.0735,64
+Chile,Strongly disagree,0.0403,41
+Chile,Don't know/Refused,0.0205,18
+China,Strongly agree,0.4664,1546
+China,Somewhat agree,0.2565,801
+China,Neither agree nor disagree,0.1571,461
+China,Somewhat disagree,0.0602,174
+China,Strongly disagree,0.0227,75
+China,Don't know/Refused,0.0371,111
+Colombia,Strongly agree,0.6497,595
+Colombia,Somewhat agree,0.1697,156
+Colombia,Neither agree nor disagree,0.0545,60
+Colombia,Somewhat disagree,0.0765,69
+Colombia,Strongly disagree,0.0305,23
+Colombia,Don't know/Refused,0.019,16
+Comoros,Strongly agree,0.7898,704
+Comoros,Somewhat agree,0.1027,87
+Comoros,Neither agree nor disagree,0.0174,18
+Comoros,Somewhat disagree,0.0434,40
+Comoros,Strongly disagree,0.0316,36
+Comoros,Don't know/Refused,0.015,15
+"Congo, Rep.",Strongly agree,0.6278,493
+"Congo, Rep.",Somewhat agree,0.1237,88
+"Congo, Rep.",Neither agree nor disagree,0.0354,32
+"Congo, Rep.",Somewhat disagree,0.0934,81
+"Congo, Rep.",Strongly disagree,0.0816,64
+"Congo, Rep.",Don't know/Refused,0.038,29
+Costa Rica,Strongly agree,0.7327,722
+Costa Rica,Somewhat agree,0.131,111
+Costa Rica,Neither agree nor disagree,0.0663,60
+Costa Rica,Somewhat disagree,0.0396,31
+Costa Rica,Strongly disagree,0.0185,18
+Costa Rica,Don't know/Refused,0.0119,14
+Croatia,Strongly agree,0.3891,372
+Croatia,Somewhat agree,0.1786,179
+Croatia,Neither agree nor disagree,0.2841,253
+Croatia,Somewhat disagree,0.0301,31
+Croatia,Strongly disagree,0.0378,39
+Croatia,Don't know/Refused,0.0802,76
+Cyprus,Strongly agree,0.3785,281
+Cyprus,Somewhat agree,0.2435,186
+Cyprus,Neither agree nor disagree,0.2432,181
+Cyprus,Somewhat disagree,0.0585,33
+Cyprus,Strongly disagree,0.0401,24
+Cyprus,Don't know/Refused,0.0363,23
+Czech Republic,Strongly agree,0.4391,445
+Czech Republic,Somewhat agree,0.2014,191
+Czech Republic,Neither agree nor disagree,0.2157,211
+Czech Republic,Somewhat disagree,0.0429,39
+Czech Republic,Strongly disagree,0.0231,21
+Czech Republic,Don't know/Refused,0.0778,69
+Denmark,Strongly agree,0.4529,439
+Denmark,Somewhat agree,0.2449,236
+Denmark,Neither agree nor disagree,0.2054,191
+Denmark,Somewhat disagree,0.0723,68
+Denmark,Strongly disagree,0.0175,18
+Denmark,Don't know/Refused,0.0071,6
+Dominican Republic,Strongly agree,0.6797,557
+Dominican Republic,Somewhat agree,0.2147,166
+Dominican Republic,Neither agree nor disagree,0.0351,22
+Dominican Republic,Somewhat disagree,0.0418,26
+Dominican Republic,Strongly disagree,0.0073,6
+Dominican Republic,Don't know/Refused,0.0214,19
+Ecuador,Strongly agree,0.6924,635
+Ecuador,Somewhat agree,0.1663,148
+Ecuador,Neither agree nor disagree,0.0572,59
+Ecuador,Somewhat disagree,0.0353,32
+Ecuador,Strongly disagree,0.0186,22
+Ecuador,Don't know/Refused,0.0302,28
+Egypt,Strongly agree,0.8689,867
+Egypt,Somewhat agree,0.1027,97
+Egypt,Neither agree nor disagree,0.0104,12
+Egypt,Somewhat disagree,0.0059,3
+Egypt,Don't know/Refused,0.0122,14
+El Salvador,Strongly agree,0.6107,553
+El Salvador,Somewhat agree,0.1689,158
+El Salvador,Neither agree nor disagree,0.0904,82
+El Salvador,Somewhat disagree,0.094,84
+El Salvador,Strongly disagree,0.0198,22
+El Salvador,Don't know/Refused,0.0161,20
+Estonia,Strongly agree,0.3461,305
+Estonia,Somewhat agree,0.156,144
+Estonia,Neither agree nor disagree,0.3098,308
+Estonia,Somewhat disagree,0.0754,66
+Estonia,Strongly disagree,0.0595,52
+Estonia,Don't know/Refused,0.0532,49
+Ethiopia,Strongly agree,0.8594,832
+Ethiopia,Somewhat agree,0.1018,99
+Ethiopia,Neither agree nor disagree,0.0054,5
+Ethiopia,Somewhat disagree,0.0181,22
+Ethiopia,Strongly disagree,0.0073,8
+Ethiopia,Don't know/Refused,0.0079,7
+Finland,Strongly agree,0.3585,411
+Finland,Somewhat agree,0.3699,352
+Finland,Neither agree nor disagree,0.183,149
+Finland,Somewhat disagree,0.0696,70
+Finland,Strongly disagree,0.0103,7
+Finland,Don't know/Refused,0.0086,6
+France,Strongly agree,0.2162,231
+France,Somewhat agree,0.2542,264
+France,Neither agree nor disagree,0.1839,160
+France,Somewhat disagree,0.1998,192
+France,Strongly disagree,0.1331,117
+France,Don't know/Refused,0.0128,9
+Gabon,Strongly agree,0.4184,384
+Gabon,Somewhat agree,0.2081,203
+Gabon,Neither agree nor disagree,0.0811,87
+Gabon,Somewhat disagree,0.1786,179
+Gabon,Strongly disagree,0.08,81
+Gabon,Don't know/Refused,0.0338,32
+Georgia,Strongly agree,0.5182,445
+Georgia,Somewhat agree,0.1768,149
+Georgia,Neither agree nor disagree,0.1519,148
+Georgia,Somewhat disagree,0.0649,55
+Georgia,Strongly disagree,0.0309,25
+Georgia,Don't know/Refused,0.0574,44
+Germany,Strongly agree,0.4714,450
+Germany,Somewhat agree,0.2002,182
+Germany,Neither agree nor disagree,0.1869,169
+Germany,Somewhat disagree,0.0864,90
+Germany,Strongly disagree,0.0424,46
+Germany,Don't know/Refused,0.0127,10
+Ghana,Strongly agree,0.7755,541
+Ghana,Somewhat agree,0.0963,76
+Ghana,Neither agree nor disagree,0.0749,56
+Ghana,Somewhat disagree,0.0147,14
+Ghana,Strongly disagree,0.0203,14
+Ghana,Don't know/Refused,0.0183,13
+Greece,Strongly agree,0.4982,461
+Greece,Somewhat agree,0.287,285
+Greece,Neither agree nor disagree,0.1524,158
+Greece,Somewhat disagree,0.0246,29
+Greece,Strongly disagree,0.0113,11
+Greece,Don't know/Refused,0.0266,26
+Guatemala,Strongly agree,0.6427,543
+Guatemala,Somewhat agree,0.2299,186
+Guatemala,Neither agree nor disagree,0.0265,26
+Guatemala,Somewhat disagree,0.0582,52
+Guatemala,Strongly disagree,0.0146,12
+Guatemala,Don't know/Refused,0.028,26
+Guinea,Strongly agree,0.6463,534
+Guinea,Somewhat agree,0.1366,121
+Guinea,Neither agree nor disagree,0.0231,16
+Guinea,Somewhat disagree,0.0831,77
+Guinea,Strongly disagree,0.0574,52
+Guinea,Don't know/Refused,0.0535,37
+Haiti,Strongly agree,0.6434,246
+Haiti,Somewhat agree,0.0729,28
+Haiti,Neither agree nor disagree,0.0554,24
+Haiti,Somewhat disagree,0.1406,62
+Haiti,Strongly disagree,0.0634,21
+Haiti,Don't know/Refused,0.0244,10
+Honduras,Strongly agree,0.7626,671
+Honduras,Somewhat agree,0.1292,127
+Honduras,Neither agree nor disagree,0.0382,40
+Honduras,Somewhat disagree,0.0487,43
+Honduras,Strongly disagree,0.0102,9
+Honduras,Don't know/Refused,0.0111,14
+Hungary,Strongly agree,0.6675,652
+Hungary,Somewhat agree,0.0995,103
+Hungary,Neither agree nor disagree,0.1758,154
+Hungary,Somewhat disagree,0.005,6
+Hungary,Strongly disagree,0.0213,18
+Hungary,Don't know/Refused,0.0309,24
+Iceland,Strongly agree,0.2696,138
+Iceland,Somewhat agree,0.3371,164
+Iceland,Neither agree nor disagree,0.1675,72
+Iceland,Somewhat disagree,0.18,84
+Iceland,Strongly disagree,0.0327,19
+Iceland,Don't know/Refused,0.0131,7
+India,Strongly agree,0.8642,2357
+India,Somewhat agree,0.0902,225
+India,Neither agree nor disagree,0.0128,29
+India,Somewhat disagree,0.0106,26
+India,Strongly disagree,0.0094,30
+India,Don't know/Refused,0.0128,28
+Indonesia,Strongly agree,0.6109,430
+Indonesia,Somewhat agree,0.2241,154
+Indonesia,Neither agree nor disagree,0.072,47
+Indonesia,Somewhat disagree,0.0495,34
+Indonesia,Strongly disagree,0.0079,6
+Indonesia,Don't know/Refused,0.0356,21
+Iran,Strongly agree,0.5192,477
+Iran,Somewhat agree,0.166,161
+Iran,Neither agree nor disagree,0.1899,186
+Iran,Somewhat disagree,0.0732,63
+Iran,Strongly disagree,0.0184,15
+Iran,Don't know/Refused,0.0334,36
+Iraq,Strongly agree,0.7425,631
+Iraq,Somewhat agree,0.1572,140
+Iraq,Neither agree nor disagree,0.0416,39
+Iraq,Somewhat disagree,0.0373,33
+Iraq,Strongly disagree,0.0072,6
+Iraq,Don't know/Refused,0.0142,11
+Ireland,Strongly agree,0.5078,516
+Ireland,Somewhat agree,0.2267,218
+Ireland,Neither agree nor disagree,0.153,131
+Ireland,Somewhat disagree,0.0695,55
+Ireland,Strongly disagree,0.0241,21
+Ireland,Don't know/Refused,0.0189,14
+Israel,Strongly agree,0.4033,399
+Israel,Somewhat agree,0.3526,356
+Israel,Neither agree nor disagree,0.1256,117
+Israel,Somewhat disagree,0.0423,39
+Israel,Strongly disagree,0.0059,8
+Israel,Don't know/Refused,0.0704,80
+Italy,Strongly agree,0.4216,444
+Italy,Somewhat agree,0.3353,300
+Italy,Neither agree nor disagree,0.0991,105
+Italy,Somewhat disagree,0.1113,101
+Italy,Strongly disagree,0.0259,34
+Italy,Don't know/Refused,0.0069,7
+Ivory Coast,Strongly agree,0.5713,519
+Ivory Coast,Somewhat agree,0.1982,183
+Ivory Coast,Neither agree nor disagree,0.0254,28
+Ivory Coast,Somewhat disagree,0.1079,111
+Ivory Coast,Strongly disagree,0.0557,56
+Ivory Coast,Don't know/Refused,0.0416,28
+Japan,Strongly agree,0.086,83
+Japan,Somewhat agree,0.254,241
+Japan,Neither agree nor disagree,0.5544,520
+Japan,Somewhat disagree,0.0704,63
+Japan,Strongly disagree,0.013,14
+Japan,Don't know/Refused,0.0222,22
+Jordan,Strongly agree,0.7205,704
+Jordan,Somewhat agree,0.1994,187
+Jordan,Neither agree nor disagree,0.0239,29
+Jordan,Somewhat disagree,0.025,24
+Jordan,Strongly disagree,0.0065,7
+Jordan,Don't know/Refused,0.0246,30
+Kazakhstan,Strongly agree,0.405,351
+Kazakhstan,Somewhat agree,0.0521,60
+Kazakhstan,Neither agree nor disagree,0.3157,318
+Kazakhstan,Somewhat disagree,0.0625,61
+Kazakhstan,Strongly disagree,0.0409,42
+Kazakhstan,Don't know/Refused,0.1238,97
+Kenya,Strongly agree,0.7596,711
+Kenya,Somewhat agree,0.1328,118
+Kenya,Neither agree nor disagree,0.0392,31
+Kenya,Somewhat disagree,0.026,23
+Kenya,Strongly disagree,0.027,20
+Kenya,Don't know/Refused,0.0155,10
+Kosovo,Strongly agree,0.5586,511
+Kosovo,Somewhat agree,0.1541,131
+Kosovo,Neither agree nor disagree,0.1971,185
+Kosovo,Somewhat disagree,0.0355,35
+Kosovo,Strongly disagree,0.0186,18
+Kosovo,Don't know/Refused,0.036,38
+Kuwait,Strongly agree,0.704,618
+Kuwait,Somewhat agree,0.1646,144
+Kuwait,Neither agree nor disagree,0.0497,49
+Kuwait,Somewhat disagree,0.03,26
+Kuwait,Strongly disagree,0.0109,9
+Kuwait,Don't know/Refused,0.0408,31
+Kyrgyzstan,Strongly agree,0.6328,541
+Kyrgyzstan,Somewhat agree,0.0455,48
+Kyrgyzstan,Neither agree nor disagree,0.1143,91
+Kyrgyzstan,Somewhat disagree,0.0488,40
+Kyrgyzstan,Strongly disagree,0.0396,38
+Kyrgyzstan,Don't know/Refused,0.119,69
+Laos,Strongly agree,0.7215,394
+Laos,Somewhat agree,0.2024,96
+Laos,Neither agree nor disagree,0.0343,19
+Laos,Somewhat disagree,0.0134,9
+Laos,Strongly disagree,0.0051,2
+Laos,Don't know/Refused,0.0233,12
+Latvia,Strongly agree,0.26,249
+Latvia,Somewhat agree,0.1945,186
+Latvia,Neither agree nor disagree,0.2833,293
+Latvia,Somewhat disagree,0.1425,137
+Latvia,Strongly disagree,0.0282,30
+Latvia,Don't know/Refused,0.0914,89
+Lebanon,Strongly agree,0.6789,682
+Lebanon,Somewhat agree,0.158,161
+Lebanon,Neither agree nor disagree,0.1082,98
+Lebanon,Somewhat disagree,0.0317,29
+Lebanon,Strongly disagree,0.0018,3
+Lebanon,Don't know/Refused,0.0213,19
+Liberia,Strongly agree,0.8713,833
+Liberia,Somewhat agree,0.0888,75
+Liberia,Neither agree nor disagree,0.0109,8
+Liberia,Somewhat disagree,0.0091,8
+Liberia,Strongly disagree,0.016,14
+Liberia,Don't know/Refused,0.004,3
+Libya,Strongly agree,0.5829,549
+Libya,Somewhat agree,0.1563,152
+Libya,Neither agree nor disagree,0.1347,104
+Libya,Somewhat disagree,0.0566,40
+Libya,Strongly disagree,0.0337,24
+Libya,Don't know/Refused,0.0357,27
+Lithuania,Strongly agree,0.3217,271
+Lithuania,Somewhat agree,0.2021,155
+Lithuania,Neither agree nor disagree,0.2734,218
+Lithuania,Somewhat disagree,0.0614,46
+Lithuania,Strongly disagree,0.0214,17
+Lithuania,Don't know/Refused,0.12,90
+Luxembourg,Strongly agree,0.3453,336
+Luxembourg,Somewhat agree,0.363,318
+Luxembourg,Neither agree nor disagree,0.1573,152
+Luxembourg,Somewhat disagree,0.0951,98
+Luxembourg,Strongly disagree,0.0286,31
+Luxembourg,Don't know/Refused,0.0107,9
+Macedonia,Strongly agree,0.4459,432
+Macedonia,Somewhat agree,0.0903,92
+Macedonia,Neither agree nor disagree,0.2569,228
+Macedonia,Somewhat disagree,0.0794,66
+Macedonia,Strongly disagree,0.0558,53
+Macedonia,Don't know/Refused,0.0718,79
+Madagascar,Strongly agree,0.7343,606
+Madagascar,Somewhat agree,0.1195,103
+Madagascar,Neither agree nor disagree,0.0226,23
+Madagascar,Somewhat disagree,0.056,47
+Madagascar,Strongly disagree,0.048,43
+Madagascar,Don't know/Refused,0.0197,18
+Malawi,Strongly agree,0.8882,793
+Malawi,Somewhat agree,0.0291,27
+Malawi,Neither agree nor disagree,0.0311,26
+Malawi,Somewhat disagree,0.0187,13
+Malawi,Strongly disagree,0.0197,12
+Malawi,Don't know/Refused,0.0132,13
+Malaysia,Strongly agree,0.7192,436
+Malaysia,Somewhat agree,0.1897,115
+Malaysia,Neither agree nor disagree,0.0342,22
+Malaysia,Somewhat disagree,0.0188,13
+Malaysia,Strongly disagree,0.0092,5
+Malaysia,Don't know/Refused,0.0288,20
+Mali,Strongly agree,0.5874,508
+Mali,Somewhat agree,0.0676,66
+Mali,Neither agree nor disagree,0.0343,27
+Mali,Somewhat disagree,0.113,87
+Mali,Strongly disagree,0.0584,46
+Mali,Don't know/Refused,0.1393,89
+Malta,Strongly agree,0.572,526
+Malta,Somewhat agree,0.2229,205
+Malta,Neither agree nor disagree,0.1326,130
+Malta,Somewhat disagree,0.0462,47
+Malta,Strongly disagree,0.0163,16
+Malta,Don't know/Refused,0.01,9
+Mauritania,Strongly agree,0.6336,544
+Mauritania,Somewhat agree,0.1086,73
+Mauritania,Neither agree nor disagree,0.0407,47
+Mauritania,Somewhat disagree,0.0644,56
+Mauritania,Strongly disagree,0.0318,30
+Mauritania,Don't know/Refused,0.1209,87
+Mauritius,Strongly agree,0.4495,414
+Mauritius,Somewhat agree,0.1799,179
+Mauritius,Neither agree nor disagree,0.1716,197
+Mauritius,Somewhat disagree,0.1392,132
+Mauritius,Strongly disagree,0.031,27
+Mauritius,Don't know/Refused,0.0288,23
+Mexico,Strongly agree,0.7538,706
+Mexico,Somewhat agree,0.1359,142
+Mexico,Neither agree nor disagree,0.0276,30
+Mexico,Somewhat disagree,0.029,33
+Mexico,Strongly disagree,0.0364,32
+Mexico,Don't know/Refused,0.0173,15
+Moldova,Strongly agree,0.2804,259
+Moldova,Somewhat agree,0.163,146
+Moldova,Neither agree nor disagree,0.3342,314
+Moldova,Somewhat disagree,0.0707,70
+Moldova,Strongly disagree,0.0368,36
+Moldova,Don't know/Refused,0.1149,117
+Mongolia,Strongly agree,0.5516,516
+Mongolia,Somewhat agree,0.1928,184
+Mongolia,Neither agree nor disagree,0.0504,47
+Mongolia,Somewhat disagree,0.1461,128
+Mongolia,Strongly disagree,0.0137,13
+Mongolia,Don't know/Refused,0.0455,48
+Montenegro,Strongly agree,0.3067,283
+Montenegro,Somewhat agree,0.1368,138
+Montenegro,Neither agree nor disagree,0.3409,330
+Montenegro,Somewhat disagree,0.0718,67
+Montenegro,Strongly disagree,0.0626,57
+Montenegro,Don't know/Refused,0.0812,70
+Morocco,Strongly agree,0.698,684
+Morocco,Somewhat agree,0.1007,88
+Morocco,Neither agree nor disagree,0.041,43
+Morocco,Somewhat disagree,0.0254,19
+Morocco,Strongly disagree,0.0134,13
+Morocco,Don't know/Refused,0.1216,131
+Mozambique,Strongly agree,0.7651,709
+Mozambique,Somewhat agree,0.1467,125
+Mozambique,Neither agree nor disagree,0.0234,24
+Mozambique,Somewhat disagree,0.0315,32
+Mozambique,Strongly disagree,0.0123,17
+Mozambique,Don't know/Refused,0.021,21
+Myanmar,Strongly agree,0.7409,749
+Myanmar,Somewhat agree,0.1741,150
+Myanmar,Neither agree nor disagree,0.0177,17
+Myanmar,Somewhat disagree,0.027,25
+Myanmar,Strongly disagree,0.015,11
+Myanmar,Don't know/Refused,0.0254,24
+Namibia,Strongly agree,0.7129,453
+Namibia,Somewhat agree,0.1225,90
+Namibia,Neither agree nor disagree,0.0434,25
+Namibia,Somewhat disagree,0.0719,45
+Namibia,Strongly disagree,0.0398,26
+Namibia,Don't know/Refused,0.0095,8
+Nepal,Strongly agree,0.727,609
+Nepal,Somewhat agree,0.1941,169
+Nepal,Neither agree nor disagree,0.0335,34
+Nepal,Somewhat disagree,0.0289,31
+Nepal,Strongly disagree,0.0042,3
+Nepal,Don't know/Refused,0.0123,10
+Netherlands,Strongly agree,0.3827,342
+Netherlands,Somewhat agree,0.2937,243
+Netherlands,Neither agree nor disagree,0.1445,115
+Netherlands,Somewhat disagree,0.1178,113
+Netherlands,Strongly disagree,0.0517,47
+Netherlands,Don't know/Refused,0.0095,9
+New Zealand,Strongly agree,0.413,432
+New Zealand,Somewhat agree,0.3081,295
+New Zealand,Neither agree nor disagree,0.1634,130
+New Zealand,Somewhat disagree,0.0653,59
+New Zealand,Strongly disagree,0.0328,32
+New Zealand,Don't know/Refused,0.0174,26
+Nicaragua,Strongly agree,0.7844,745
+Nicaragua,Somewhat agree,0.1444,130
+Nicaragua,Neither agree nor disagree,0.0295,26
+Nicaragua,Somewhat disagree,0.0238,21
+Nicaragua,Strongly disagree,0.0039,6
+Nicaragua,Don't know/Refused,0.0141,8
+Niger,Strongly agree,0.7412,515
+Niger,Somewhat agree,0.1264,100
+Niger,Neither agree nor disagree,0.0084,9
+Niger,Somewhat disagree,0.038,31
+Niger,Strongly disagree,0.0344,22
+Niger,Don't know/Refused,0.0515,45
+Nigeria,Strongly agree,0.8329,666
+Nigeria,Somewhat agree,0.0786,70
+Nigeria,Neither agree nor disagree,0.0306,29
+Nigeria,Somewhat disagree,0.0331,32
+Nigeria,Strongly disagree,0.0164,18
+Nigeria,Don't know/Refused,0.0084,10
+Northern Cyprus,Strongly agree,0.6975,685
+Northern Cyprus,Somewhat agree,0.178,188
+Northern Cyprus,Neither agree nor disagree,0.0809,81
+Northern Cyprus,Somewhat disagree,0.0408,41
+Northern Cyprus,Don't know/Refused,0.0029,5
+Norway,Strongly agree,0.5737,512
+Norway,Somewhat agree,0.2584,217
+Norway,Neither agree nor disagree,0.1073,102
+Norway,Somewhat disagree,0.0388,39
+Norway,Strongly disagree,0.0179,16
+Norway,Don't know/Refused,0.0039,2
+Pakistan,Strongly agree,0.7218,540
+Pakistan,Somewhat agree,0.1529,117
+Pakistan,Neither agree nor disagree,0.0352,30
+Pakistan,Somewhat disagree,0.0338,22
+Pakistan,Strongly disagree,0.011,14
+Pakistan,Don't know/Refused,0.0453,35
+Palestine,Strongly agree,0.7978,814
+Palestine,Somewhat agree,0.1104,93
+Palestine,Neither agree nor disagree,0.0422,37
+Palestine,Somewhat disagree,0.0275,23
+Palestine,Strongly disagree,0.0023,4
+Palestine,Don't know/Refused,0.0197,14
+Panama,Strongly agree,0.662,590
+Panama,Somewhat agree,0.2082,158
+Panama,Neither agree nor disagree,0.0564,54
+Panama,Somewhat disagree,0.0382,30
+Panama,Strongly disagree,0.0125,13
+Panama,Don't know/Refused,0.0228,21
+Paraguay,Strongly agree,0.5993,534
+Paraguay,Somewhat agree,0.1778,146
+Paraguay,Neither agree nor disagree,0.1182,112
+Paraguay,Somewhat disagree,0.0621,48
+Paraguay,Strongly disagree,0.0175,14
+Paraguay,Don't know/Refused,0.025,27
+Peru,Strongly agree,0.4315,397
+Peru,Somewhat agree,0.2705,247
+Peru,Neither agree nor disagree,0.0843,79
+Peru,Somewhat disagree,0.1502,135
+Peru,Strongly disagree,0.0244,27
+Peru,Don't know/Refused,0.039,37
+Philippines,Strongly agree,0.5453,509
+Philippines,Somewhat agree,0.242,220
+Philippines,Neither agree nor disagree,0.0474,53
+Philippines,Somewhat disagree,0.1198,108
+Philippines,Strongly disagree,0.0192,25
+Philippines,Don't know/Refused,0.0262,20
+Poland,Strongly agree,0.6482,552
+Poland,Somewhat agree,0.1277,107
+Poland,Neither agree nor disagree,0.1339,119
+Poland,Somewhat disagree,0.0338,33
+Poland,Strongly disagree,0.0189,19
+Poland,Don't know/Refused,0.0375,33
+Portugal,Strongly agree,0.5599,577
+Portugal,Somewhat agree,0.2478,220
+Portugal,Neither agree nor disagree,0.131,135
+Portugal,Somewhat disagree,0.0361,40
+Portugal,Strongly disagree,0.0153,9
+Portugal,Don't know/Refused,0.0099,9
+Romania,Strongly agree,0.5448,511
+Romania,Somewhat agree,0.1073,105
+Romania,Neither agree nor disagree,0.1603,162
+Romania,Somewhat disagree,0.0666,58
+Romania,Strongly disagree,0.0623,46
+Romania,Don't know/Refused,0.0587,68
+Russia,Strongly agree,0.3031,540
+Russia,Somewhat agree,0.1432,264
+Russia,Neither agree nor disagree,0.244,471
+Russia,Somewhat disagree,0.1773,315
+Russia,Strongly disagree,0.0588,116
+Russia,Don't know/Refused,0.0735,134
+Rwanda,Strongly agree,0.8184,693
+Rwanda,Somewhat agree,0.117,98
+Rwanda,Neither agree nor disagree,0.0088,7
+Rwanda,Somewhat disagree,0.0098,10
+Rwanda,Strongly disagree,0.0065,5
+Rwanda,Don't know/Refused,0.0395,27
+Saudi Arabia,Strongly agree,0.6995,631
+Saudi Arabia,Somewhat agree,0.1456,153
+Saudi Arabia,Neither agree nor disagree,0.1243,122
+Saudi Arabia,Somewhat disagree,0.0218,33
+Saudi Arabia,Strongly disagree,0.0055,8
+Saudi Arabia,Don't know/Refused,0.0033,4
+Senegal,Strongly agree,0.6107,512
+Senegal,Somewhat agree,0.1229,112
+Senegal,Neither agree nor disagree,0.076,72
+Senegal,Somewhat disagree,0.1005,86
+Senegal,Strongly disagree,0.0469,36
+Senegal,Don't know/Refused,0.0429,37
+Serbia,Strongly agree,0.4721,482
+Serbia,Somewhat agree,0.1875,174
+Serbia,Neither agree nor disagree,0.1867,183
+Serbia,Somewhat disagree,0.053,43
+Serbia,Strongly disagree,0.0393,35
+Serbia,Don't know/Refused,0.0614,51
+Sierra Leone,Strongly agree,0.8372,758
+Sierra Leone,Somewhat agree,0.0904,87
+Sierra Leone,Neither agree nor disagree,0.0134,13
+Sierra Leone,Somewhat disagree,0.0164,20
+Sierra Leone,Strongly disagree,0.0229,18
+Sierra Leone,Don't know/Refused,0.0197,14
+Singapore,Strongly agree,0.4672,368
+Singapore,Somewhat agree,0.2947,269
+Singapore,Neither agree nor disagree,0.1789,169
+Singapore,Somewhat disagree,0.024,18
+Singapore,Strongly disagree,0.0065,6
+Singapore,Don't know/Refused,0.0287,16
+Slovakia,Strongly agree,0.5645,526
+Slovakia,Somewhat agree,0.168,133
+Slovakia,Neither agree nor disagree,0.1535,133
+Slovakia,Somewhat disagree,0.0447,35
+Slovakia,Strongly disagree,0.0192,14
+Slovakia,Don't know/Refused,0.0501,47
+Slovenia,Strongly agree,0.3899,370
+Slovenia,Somewhat agree,0.3127,279
+Slovenia,Neither agree nor disagree,0.1688,144
+Slovenia,Somewhat disagree,0.0857,73
+Slovenia,Strongly disagree,0.0372,34
+Slovenia,Don't know/Refused,0.0057,6
+South Africa,Strongly agree,0.6827,281
+South Africa,Somewhat agree,0.1405,62
+South Africa,Neither agree nor disagree,0.0582,27
+South Africa,Somewhat disagree,0.0526,23
+South Africa,Strongly disagree,0.0373,14
+South Africa,Don't know/Refused,0.0288,16
+South Korea,Strongly agree,0.1593,162
+South Korea,Somewhat agree,0.3273,295
+South Korea,Neither agree nor disagree,0.3655,297
+South Korea,Somewhat disagree,0.069,55
+South Korea,Strongly disagree,0.0099,6
+South Korea,Don't know/Refused,0.0691,68
+Spain,Strongly agree,0.6017,637
+Spain,Somewhat agree,0.1947,178
+Spain,Neither agree nor disagree,0.1228,114
+Spain,Somewhat disagree,0.0455,35
+Spain,Strongly disagree,0.0249,19
+Spain,Don't know/Refused,0.0103,5
+Sri Lanka,Strongly agree,0.569,552
+Sri Lanka,Somewhat agree,0.2958,285
+Sri Lanka,Neither agree nor disagree,0.0416,40
+Sri Lanka,Somewhat disagree,0.0606,59
+Sri Lanka,Strongly disagree,0.0098,10
+Sri Lanka,Don't know/Refused,0.0231,21
+Eswatini,Strongly agree,0.5795,520
+Eswatini,Somewhat agree,0.1763,165
+Eswatini,Neither agree nor disagree,0.1085,99
+Eswatini,Somewhat disagree,0.063,59
+Eswatini,Strongly disagree,0.0379,36
+Eswatini,Don't know/Refused,0.0348,35
+Sweden,Strongly agree,0.3643,397
+Sweden,Somewhat agree,0.3342,317
+Sweden,Neither agree nor disagree,0.1591,145
+Sweden,Somewhat disagree,0.0929,85
+Sweden,Strongly disagree,0.0299,22
+Sweden,Don't know/Refused,0.0197,17
+Switzerland,Strongly agree,0.2272,227
+Switzerland,Somewhat agree,0.2992,268
+Switzerland,Neither agree nor disagree,0.2359,218
+Switzerland,Somewhat disagree,0.1768,171
+Switzerland,Strongly disagree,0.0386,43
+Switzerland,Don't know/Refused,0.0222,26
+Taiwan,Strongly agree,0.2181,212
+Taiwan,Somewhat agree,0.3479,323
+Taiwan,Neither agree nor disagree,0.2462,252
+Taiwan,Somewhat disagree,0.1573,171
+Taiwan,Strongly disagree,0.013,17
+Taiwan,Don't know/Refused,0.0174,17
+Tajikistan,Strongly agree,0.8387,778
+Tajikistan,Somewhat agree,0.0746,63
+Tajikistan,Neither agree nor disagree,0.0525,45
+Tajikistan,Somewhat disagree,0.0048,9
+Tajikistan,Strongly disagree,0.0042,3
+Tajikistan,Don't know/Refused,0.0254,25
+Tanzania,Strongly agree,0.8494,795
+Tanzania,Somewhat agree,0.1059,100
+Tanzania,Neither agree nor disagree,0.0152,16
+Tanzania,Somewhat disagree,0.0161,12
+Tanzania,Strongly disagree,0.0068,5
+Tanzania,Don't know/Refused,0.0066,8
+Thailand,Strongly agree,0.7602,611
+Thailand,Somewhat agree,0.1656,116
+Thailand,Neither agree nor disagree,0.0353,24
+Thailand,Somewhat disagree,0.0217,15
+Thailand,Strongly disagree,0.0084,7
+Thailand,Don't know/Refused,0.0088,8
+The Gambia,Strongly agree,0.8244,674
+The Gambia,Somewhat agree,0.0506,47
+The Gambia,Neither agree nor disagree,0.026,24
+The Gambia,Somewhat disagree,0.0249,19
+The Gambia,Strongly disagree,0.0229,23
+The Gambia,Don't know/Refused,0.0512,39
+Togo,Strongly agree,0.3343,303
+Togo,Somewhat agree,0.1774,138
+Togo,Neither agree nor disagree,0.1091,84
+Togo,Somewhat disagree,0.1467,123
+Togo,Strongly disagree,0.1034,80
+Togo,Don't know/Refused,0.1291,92
+Tunisia,Strongly agree,0.5843,534
+Tunisia,Somewhat agree,0.1883,168
+Tunisia,Neither agree nor disagree,0.1344,117
+Tunisia,Somewhat disagree,0.0349,31
+Tunisia,Strongly disagree,0.0157,11
+Tunisia,Don't know/Refused,0.0424,36
+Turkey,Strongly agree,0.6065,520
+Turkey,Somewhat agree,0.2114,186
+Turkey,Neither agree nor disagree,0.084,92
+Turkey,Somewhat disagree,0.0447,44
+Turkey,Strongly disagree,0.0142,14
+Turkey,Don't know/Refused,0.0392,31
+Turkmenistan,Strongly agree,0.8376,747
+Turkmenistan,Somewhat agree,0.0197,17
+Turkmenistan,Neither agree nor disagree,0.0397,32
+Turkmenistan,Somewhat disagree,0.03,23
+Turkmenistan,Strongly disagree,0.0185,14
+Turkmenistan,Don't know/Refused,0.0544,41
+Uganda,Strongly agree,0.7466,606
+Uganda,Somewhat agree,0.1086,99
+Uganda,Neither agree nor disagree,0.0453,44
+Uganda,Somewhat disagree,0.053900000000000003,47
+Uganda,Strongly disagree,0.0314,26
+Uganda,Don't know/Refused,0.0141,14
+Ukraine,Strongly agree,0.191,183
+Ukraine,Somewhat agree,0.1018,103
+Ukraine,Neither agree nor disagree,0.4628,426
+Ukraine,Somewhat disagree,0.0982,103
+Ukraine,Strongly disagree,0.0545,48
+Ukraine,Don't know/Refused,0.0917,85
+United Arab Emirates,Strongly agree,0.6511,509
+United Arab Emirates,Somewhat agree,0.1848,139
+United Arab Emirates,Neither agree nor disagree,0.0862,69
+United Arab Emirates,Somewhat disagree,0.0289,22
+United Arab Emirates,Strongly disagree,0.0149,13
+United Arab Emirates,Don't know/Refused,0.0342,24
+United Kingdom,Strongly agree,0.4591,465
+United Kingdom,Somewhat agree,0.2924,284
+United Kingdom,Neither agree nor disagree,0.1445,123
+United Kingdom,Somewhat disagree,0.0604,51
+United Kingdom,Strongly disagree,0.0269,27
+United Kingdom,Don't know/Refused,0.0167,18
+United States,Strongly agree,0.4765,501
+United States,Somewhat agree,0.2444,244
+United States,Neither agree nor disagree,0.1577,127
+United States,Somewhat disagree,0.0617,55
+United States,Strongly disagree,0.0492,45
+United States,Don't know/Refused,0.0105,11
+Uruguay,Strongly agree,0.5508,545
+Uruguay,Somewhat agree,0.1731,165
+Uruguay,Neither agree nor disagree,0.1461,134
+Uruguay,Somewhat disagree,0.0839,71
+Uruguay,Strongly disagree,0.0237,22
+Uruguay,Don't know/Refused,0.0224,23
+Uzbekistan,Strongly agree,0.8375,773
+Uzbekistan,Somewhat agree,0.086,66
+Uzbekistan,Neither agree nor disagree,0.0233,24
+Uzbekistan,Somewhat disagree,0.0226,20
+Uzbekistan,Strongly disagree,0.0106,12
+Uzbekistan,Don't know/Refused,0.02,14
+Venezuela,Strongly agree,0.7867,716
+Venezuela,Somewhat agree,0.1356,113
+Venezuela,Neither agree nor disagree,0.0303,25
+Venezuela,Somewhat disagree,0.0199,18
+Venezuela,Strongly disagree,0.0206,16
+Venezuela,Don't know/Refused,0.0069,10
+Vietnam,Strongly agree,0.3513,158
+Vietnam,Somewhat agree,0.3571,164
+Vietnam,Neither agree nor disagree,0.1231,48
+Vietnam,Somewhat disagree,0.0691,33
+Vietnam,Strongly disagree,0.012,7
+Vietnam,Don't know/Refused,0.0873,31
+Yemen,Strongly agree,0.6886,694
+Yemen,Somewhat agree,0.1536,146
+Yemen,Neither agree nor disagree,0.0557,58
+Yemen,Somewhat disagree,0.0179,20
+Yemen,Strongly disagree,0.0127,15
+Yemen,Don't know/Refused,0.0715,59
+Zambia,Strongly agree,0.6945,561
+Zambia,Somewhat agree,0.111,85
+Zambia,Neither agree nor disagree,0.065,57
+Zambia,Somewhat disagree,0.0443,32
+Zambia,Strongly disagree,0.0585,36
+Zambia,Don't know/Refused,0.0268,20
+Zimbabwe,Strongly agree,0.7401,663
+Zimbabwe,Somewhat agree,0.1113,98
+Zimbabwe,Neither agree nor disagree,0.0944,76
+Zimbabwe,Somewhat disagree,0.0186,18
+Zimbabwe,Strongly disagree,0.019,18
+Zimbabwe,Don't know/Refused,0.0166,13

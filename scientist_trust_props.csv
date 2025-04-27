@@ -1,0 +1,577 @@
+Country,Response,Weighted_prop,Unweighted count
+Afghanistan,Low trust,0.1783,164
+Afghanistan,Medium trust,0.4399,447
+Afghanistan,High trust,0.104,128
+Afghanistan,DK/Refused,0.2778,261
+Albania,Low trust,0.3916,367
+Albania,Medium trust,0.4623,490
+Albania,High trust,0.1021,90
+Albania,DK/Refused,0.044,53
+Algeria,Low trust,0.2783,268
+Algeria,Medium trust,0.4912,529
+Algeria,High trust,0.0471,50
+Algeria,DK/Refused,0.1834,153
+Argentina,Low trust,0.1821,177
+Argentina,Medium trust,0.5641,574
+Argentina,High trust,0.2071,208
+Argentina,DK/Refused,0.0467,41
+Armenia,Low trust,0.2463,244
+Armenia,Medium trust,0.5377,544
+Armenia,High trust,0.0591,56
+Armenia,DK/Refused,0.1568,156
+Australia,Low trust,0.075,71
+Australia,Medium trust,0.5817,574
+Australia,High trust,0.3345,351
+Australia,DK/Refused,0.0088,7
+Austria,Low trust,0.0857,74
+Austria,Medium trust,0.6797,674
+Austria,High trust,0.2172,234
+Austria,DK/Refused,0.0175,18
+Azerbaijan,Low trust,0.1089,102
+Azerbaijan,Medium trust,0.6127,612
+Azerbaijan,High trust,0.1846,199
+Azerbaijan,DK/Refused,0.0938,87
+Bangladesh,Low trust,0.0815,80
+Bangladesh,Medium trust,0.6257,629
+Bangladesh,High trust,0.2163,207
+Bangladesh,DK/Refused,0.0765,84
+Belarus,Low trust,0.1349,131
+Belarus,Medium trust,0.7066,765
+Belarus,High trust,0.0672,82
+Belarus,DK/Refused,0.0913,83
+Belgium,Low trust,0.0794,79
+Belgium,Medium trust,0.4815,494
+Belgium,High trust,0.4237,417
+Belgium,DK/Refused,0.0155,14
+Benin,Low trust,0.4019,426
+Benin,Medium trust,0.2747,310
+Benin,High trust,0.1369,117
+Benin,DK/Refused,0.1864,147
+Bolivia,Low trust,0.3505,348
+Bolivia,Medium trust,0.5223,529
+Bolivia,High trust,0.0537,57
+Bolivia,DK/Refused,0.0735,66
+Bosnia and Herzegovina,Low trust,0.3468,351
+Bosnia and Herzegovina,Medium trust,0.5503,545
+Bosnia and Herzegovina,High trust,0.0246,29
+Bosnia and Herzegovina,DK/Refused,0.0782,75
+Botswana,Low trust,0.2721,297
+Botswana,Medium trust,0.3452,343
+Botswana,High trust,0.2008,178
+Botswana,DK/Refused,0.1819,184
+Brazil,Low trust,0.2965,302
+Brazil,Medium trust,0.5266,525
+Brazil,High trust,0.1319,122
+Brazil,DK/Refused,0.0451,51
+Bulgaria,Low trust,0.197,194
+Bulgaria,Medium trust,0.5501,564
+Bulgaria,High trust,0.1122,112
+Bulgaria,DK/Refused,0.1407,131
+Burkina Faso,Low trust,0.2343,275
+Burkina Faso,Medium trust,0.3426,403
+Burkina Faso,High trust,0.1296,101
+Burkina Faso,DK/Refused,0.2935,221
+Burundi,Low trust,0.4159,419
+Burundi,Medium trust,0.2553,242
+Burundi,High trust,0.1589,168
+Burundi,DK/Refused,0.1699,171
+Cambodia,Low trust,0.0478,47
+Cambodia,Medium trust,0.4542,392
+Cambodia,High trust,0.062,57
+Cambodia,DK/Refused,0.4361,504
+Cameroon,Low trust,0.2936,320
+Cameroon,Medium trust,0.4004,427
+Cameroon,High trust,0.1289,110
+Cameroon,DK/Refused,0.1771,143
+Canada,Low trust,0.0713,76
+Canada,Medium trust,0.5861,591
+Canada,High trust,0.2818,299
+Canada,DK/Refused,0.0608,46
+Chad,Low trust,0.3081,352
+Chad,Medium trust,0.3383,349
+Chad,High trust,0.1007,100
+Chad,DK/Refused,0.253,199
+Chile,Low trust,0.2503,265
+Chile,Medium trust,0.5468,536
+Chile,High trust,0.1518,143
+Chile,DK/Refused,0.0512,56
+China,Low trust,0.0698,249
+China,Medium trust,0.5301,1789
+China,High trust,0.1877,747
+China,DK/Refused,0.2123,864
+Colombia,Low trust,0.323,321
+Colombia,Medium trust,0.5156,523
+Colombia,High trust,0.1036,95
+Colombia,DK/Refused,0.0578,61
+Comoros,Low trust,0.3793,390
+Comoros,Medium trust,0.3637,370
+Comoros,High trust,0.1061,98
+Comoros,DK/Refused,0.1509,142
+"Congo, Rep.",Low trust,0.4048,419
+"Congo, Rep.",Medium trust,0.2521,266
+"Congo, Rep.",High trust,0.1089,114
+"Congo, Rep.",DK/Refused,0.2342,201
+Costa Rica,Low trust,0.1947,210
+Costa Rica,Medium trust,0.565,542
+Costa Rica,High trust,0.2181,219
+Costa Rica,DK/Refused,0.0222,29
+Croatia,Low trust,0.2032,178
+Croatia,Medium trust,0.5572,569
+Croatia,High trust,0.1461,184
+Croatia,DK/Refused,0.0934,69
+Cyprus,Low trust,0.1347,134
+Cyprus,Medium trust,0.5093,520
+Cyprus,High trust,0.1879,210
+Cyprus,DK/Refused,0.1681,147
+Czech Republic,Low trust,0.1584,146
+Czech Republic,Medium trust,0.4322,435
+Czech Republic,High trust,0.3257,338
+Czech Republic,DK/Refused,0.0837,81
+Denmark,Low trust,0.0682,59
+Denmark,Medium trust,0.623,638
+Denmark,High trust,0.307,302
+Denmark,DK/Refused,0.0017,1
+Dominican Republic,Low trust,0.254,272
+Dominican Republic,Medium trust,0.5657,539
+Dominican Republic,High trust,0.1373,132
+Dominican Republic,DK/Refused,0.043,57
+Ecuador,Low trust,0.3535,371
+Ecuador,Medium trust,0.5279,496
+Ecuador,High trust,0.0763,85
+Ecuador,DK/Refused,0.0423,48
+Egypt,Low trust,0.1024,96
+Egypt,Medium trust,0.3763,384
+Egypt,High trust,0.2402,228
+Egypt,DK/Refused,0.2811,292
+El Salvador,Low trust,0.3817,421
+El Salvador,Medium trust,0.4949,458
+El Salvador,High trust,0.0877,85
+El Salvador,DK/Refused,0.0358,36
+Estonia,Low trust,0.0555,61
+Estonia,Medium trust,0.603,590
+Estonia,High trust,0.2007,188
+Estonia,DK/Refused,0.1409,161
+Ethiopia,Low trust,0.1116,125
+Ethiopia,Medium trust,0.486,526
+Ethiopia,High trust,0.1533,150
+Ethiopia,DK/Refused,0.249,199
+Finland,Low trust,0.0708,65
+Finland,Medium trust,0.5747,585
+Finland,High trust,0.3507,345
+Finland,DK/Refused,0.0038,5
+France,Low trust,0.0919,88
+France,Medium trust,0.6922,674
+France,High trust,0.209,233
+France,DK/Refused,0.0069,5
+Gabon,Low trust,0.4727,485
+Gabon,Medium trust,0.3354,347
+Gabon,High trust,0.0856,84
+Gabon,DK/Refused,0.1063,84
+Georgia,Low trust,0.2122,210
+Georgia,Medium trust,0.6217,616
+Georgia,High trust,0.0546,59
+Georgia,DK/Refused,0.1116,115
+Germany,Low trust,0.1188,118
+Germany,Medium trust,0.619,610
+Germany,High trust,0.2468,252
+Germany,DK/Refused,0.0154,20
+Ghana,Low trust,0.123,118
+Ghana,Medium trust,0.5387,581
+Ghana,High trust,0.205,220
+Ghana,DK/Refused,0.1333,81
+Greece,Low trust,0.2087,206
+Greece,Medium trust,0.6102,620
+Greece,High trust,0.0951,93
+Greece,DK/Refused,0.086,81
+Guatemala,Low trust,0.3954,386
+Guatemala,Medium trust,0.4408,449
+Guatemala,High trust,0.0807,89
+Guatemala,DK/Refused,0.0831,76
+Guinea,Low trust,0.2221,263
+Guinea,Medium trust,0.3188,350
+Guinea,High trust,0.2791,232
+Guinea,DK/Refused,0.18,155
+Haiti,Low trust,0.2254,121
+Haiti,Medium trust,0.5667,287
+Haiti,High trust,0.1127,49
+Haiti,DK/Refused,0.0952,43
+Honduras,Low trust,0.3058,324
+Honduras,Medium trust,0.5004,487
+Honduras,High trust,0.1189,110
+Honduras,DK/Refused,0.0749,79
+Hungary,Low trust,0.1315,122
+Hungary,Medium trust,0.6722,674
+Hungary,High trust,0.1241,138
+Hungary,DK/Refused,0.0723,66
+Iceland,Low trust,0.0389,18
+Iceland,Medium trust,0.6261,300
+Iceland,High trust,0.3171,172
+Iceland,DK/Refused,0.0179,10
+India,Low trust,0.1366,411
+India,Medium trust,0.5446,1647
+India,High trust,0.2114,639
+India,DK/Refused,0.1074,303
+Indonesia,Low trust,0.2021,208
+Indonesia,Medium trust,0.5442,553
+Indonesia,High trust,0.0824,75
+Indonesia,DK/Refused,0.1713,164
+Iran,Low trust,0.061,56
+Iran,Medium trust,0.5517,554
+Iran,High trust,0.1915,203
+Iran,DK/Refused,0.1958,192
+Iraq,Low trust,0.2512,238
+Iraq,Medium trust,0.5021,519
+Iraq,High trust,0.1873,191
+Iraq,DK/Refused,0.0594,52
+Ireland,Low trust,0.0523,45
+Ireland,Medium trust,0.5519,542
+Ireland,High trust,0.3864,400
+Ireland,DK/Refused,0.0094,13
+Israel,Low trust,0.1119,114
+Israel,Medium trust,0.6108,600
+Israel,High trust,0.2639,283
+Israel,DK/Refused,0.0135,13
+Italy,Low trust,0.1057,95
+Italy,Medium trust,0.724,742
+Italy,High trust,0.1657,159
+Italy,DK/Refused,0.0046,4
+Ivory Coast,Low trust,0.3116,344
+Ivory Coast,Medium trust,0.317,365
+Ivory Coast,High trust,0.0456,51
+Ivory Coast,DK/Refused,0.3258,240
+Japan,Low trust,0.0735,74
+Japan,Medium trust,0.7631,772
+Japan,High trust,0.1144,112
+Japan,DK/Refused,0.049,46
+Jordan,Low trust,0.2301,245
+Jordan,Medium trust,0.4882,484
+Jordan,High trust,0.1572,151
+Jordan,DK/Refused,0.1244,122
+Kazakhstan,Low trust,0.0994,105
+Kazakhstan,Medium trust,0.5744,569
+Kazakhstan,High trust,0.1835,177
+Kazakhstan,DK/Refused,0.1426,149
+Kenya,Low trust,0.2596,246
+Kenya,Medium trust,0.5835,580
+Kenya,High trust,0.0992,105
+Kenya,DK/Refused,0.0577,69
+Kosovo,Low trust,0.234,229
+Kosovo,Medium trust,0.6116,616
+Kosovo,High trust,0.1028,102
+Kosovo,DK/Refused,0.0517,53
+Kuwait,Low trust,0.1034,93
+Kuwait,Medium trust,0.4352,440
+Kuwait,High trust,0.1985,199
+Kuwait,DK/Refused,0.263,269
+Kyrgyzstan,Low trust,0.145,160
+Kyrgyzstan,Medium trust,0.655,639
+Kyrgyzstan,High trust,0.1072,114
+Kyrgyzstan,DK/Refused,0.0927,87
+Laos,Low trust,0.1266,115
+Laos,Medium trust,0.4148,407
+Laos,High trust,0.1572,159
+Laos,DK/Refused,0.3014,320
+Latvia,Low trust,0.0584,62
+Latvia,Medium trust,0.633,638
+Latvia,High trust,0.0776,80
+Latvia,DK/Refused,0.231,241
+Lebanon,Low trust,0.2395,220
+Lebanon,Medium trust,0.5256,542
+Lebanon,High trust,0.1958,199
+Lebanon,DK/Refused,0.0392,39
+Liberia,Low trust,0.1958,183
+Liberia,Medium trust,0.454,483
+Liberia,High trust,0.2107,220
+Liberia,DK/Refused,0.1395,114
+Libya,Low trust,0.1398,140
+Libya,Medium trust,0.5194,545
+Libya,High trust,0.1983,190
+Libya,DK/Refused,0.1425,128
+Lithuania,Low trust,0.1151,115
+Lithuania,Medium trust,0.5372,568
+Lithuania,High trust,0.1673,158
+Lithuania,DK/Refused,0.1804,159
+Luxembourg,Low trust,0.0904,82
+Luxembourg,Medium trust,0.6817,681
+Luxembourg,High trust,0.2051,219
+Luxembourg,DK/Refused,0.0228,18
+Macedonia,Low trust,0.36,333
+Macedonia,Medium trust,0.4316,469
+Macedonia,High trust,0.0535,62
+Macedonia,DK/Refused,0.155,144
+Madagascar,Low trust,0.3255,323
+Madagascar,Medium trust,0.3626,390
+Madagascar,High trust,0.1007,90
+Madagascar,DK/Refused,0.2112,197
+Malawi,Low trust,0.2534,265
+Malawi,Medium trust,0.4414,433
+Malawi,High trust,0.2171,207
+Malawi,DK/Refused,0.088,95
+Malaysia,Low trust,0.1392,144
+Malaysia,Medium trust,0.4364,423
+Malaysia,High trust,0.142,129
+Malaysia,DK/Refused,0.2824,304
+Mali,Low trust,0.1442,157
+Mali,Medium trust,0.3708,422
+Mali,High trust,0.2032,181
+Mali,DK/Refused,0.2817,240
+Malta,Low trust,0.0706,65
+Malta,Medium trust,0.5337,550
+Malta,High trust,0.3381,337
+Malta,DK/Refused,0.0576,55
+Mauritania,Low trust,0.3662,379
+Mauritania,Medium trust,0.2227,263
+Mauritania,High trust,0.0262,28
+Mauritania,DK/Refused,0.3849,330
+Mauritius,Low trust,0.2386,243
+Mauritius,Medium trust,0.6061,625
+Mauritius,High trust,0.0992,84
+Mauritius,DK/Refused,0.0562,48
+Mexico,Low trust,0.2503,268
+Mexico,Medium trust,0.6199,630
+Mexico,High trust,0.1125,116
+Mexico,DK/Refused,0.0173,20
+Moldova,Low trust,0.3819,392
+Moldova,Medium trust,0.4833,472
+Moldova,High trust,0.0486,43
+Moldova,DK/Refused,0.0862,93
+Mongolia,Low trust,0.159,164
+Mongolia,Medium trust,0.5667,555
+Mongolia,High trust,0.1137,118
+Mongolia,DK/Refused,0.1605,163
+Montenegro,Low trust,0.408,416
+Montenegro,Medium trust,0.3897,414
+Montenegro,High trust,0.0298,29
+Montenegro,DK/Refused,0.1726,141
+Morocco,Low trust,0.1189,110
+Morocco,Medium trust,0.5006,471
+Morocco,High trust,0.1438,135
+Morocco,DK/Refused,0.2366,285
+Mozambique,Low trust,0.1984,200
+Mozambique,Medium trust,0.3154,340
+Mozambique,High trust,0.2636,277
+Mozambique,DK/Refused,0.2226,183
+Myanmar,Low trust,0.0494,46
+Myanmar,Medium trust,0.5354,520
+Myanmar,High trust,0.2949,312
+Myanmar,DK/Refused,0.1203,122
+Namibia,Low trust,0.3748,354
+Namibia,Medium trust,0.451,491
+Namibia,High trust,0.0648,66
+Namibia,DK/Refused,0.1095,94
+Nepal,Low trust,0.0833,79
+Nepal,Medium trust,0.5243,561
+Nepal,High trust,0.1446,144
+Nepal,DK/Refused,0.2478,216
+Netherlands,Low trust,0.1509,163
+Netherlands,Medium trust,0.5617,571
+Netherlands,High trust,0.2843,265
+Netherlands,DK/Refused,0.0031,2
+New Zealand,Low trust,0.0523,54
+New Zealand,Medium trust,0.612,608
+New Zealand,High trust,0.3205,326
+New Zealand,DK/Refused,0.0152,14
+Nicaragua,Low trust,0.3859,361
+Nicaragua,Medium trust,0.4669,483
+Nicaragua,High trust,0.0769,85
+Nicaragua,DK/Refused,0.0703,71
+Niger,Low trust,0.1407,145
+Niger,Medium trust,0.3008,288
+Niger,High trust,0.3901,372
+Niger,DK/Refused,0.1684,195
+Nigeria,Low trust,0.1668,181
+Nigeria,Medium trust,0.5527,578
+Nigeria,High trust,0.1862,190
+Nigeria,DK/Refused,0.0944,51
+Northern Cyprus,Low trust,0.2248,214
+Northern Cyprus,Medium trust,0.5088,544
+Northern Cyprus,High trust,0.1402,155
+Northern Cyprus,DK/Refused,0.1262,87
+Norway,Low trust,0.0281,34
+Norway,Medium trust,0.5857,566
+Norway,High trust,0.3776,389
+Norway,DK/Refused,0.0086,11
+Pakistan,Low trust,0.2354,214
+Pakistan,Medium trust,0.5045,545
+Pakistan,High trust,0.107,108
+Pakistan,DK/Refused,0.1532,133
+Palestine,Low trust,0.1733,175
+Palestine,Medium trust,0.5278,536
+Palestine,High trust,0.1576,149
+Palestine,DK/Refused,0.1412,140
+Panama,Low trust,0.3836,386
+Panama,Medium trust,0.512,502
+Panama,High trust,0.0724,80
+Panama,DK/Refused,0.0321,32
+Paraguay,Low trust,0.3312,330
+Paraguay,Medium trust,0.4728,449
+Paraguay,High trust,0.0826,78
+Paraguay,DK/Refused,0.1135,143
+Peru,Low trust,0.382,363
+Peru,Medium trust,0.4883,510
+Peru,High trust,0.0517,50
+Peru,DK/Refused,0.078,77
+Philippines,Low trust,0.1273,146
+Philippines,Medium trust,0.524,523
+Philippines,High trust,0.319,300
+Philippines,DK/Refused,0.0296,31
+Poland,Low trust,0.107,96
+Poland,Medium trust,0.6695,669
+Poland,High trust,0.189,205
+Poland,DK/Refused,0.0345,30
+Portugal,Low trust,0.1066,70
+Portugal,Medium trust,0.5418,573
+Portugal,High trust,0.3364,347
+Portugal,DK/Refused,0.0152,11
+Romania,Low trust,0.2047,187
+Romania,Medium trust,0.5026,496
+Romania,High trust,0.2147,235
+Romania,DK/Refused,0.0781,84
+Russia,Low trust,0.1405,278
+Russia,Medium trust,0.6238,1223
+Russia,High trust,0.1357,270
+Russia,DK/Refused,0.1001,229
+Rwanda,Low trust,0.1103,113
+Rwanda,Medium trust,0.4216,438
+Rwanda,High trust,0.2155,209
+Rwanda,DK/Refused,0.2526,240
+Saudi Arabia,Low trust,0.0774,86
+Saudi Arabia,Medium trust,0.4786,494
+Saudi Arabia,High trust,0.2755,268
+Saudi Arabia,DK/Refused,0.1684,168
+Senegal,Low trust,0.2043,222
+Senegal,Medium trust,0.4814,486
+Senegal,High trust,0.1146,121
+Senegal,DK/Refused,0.1996,171
+Serbia,Low trust,0.2469,232
+Serbia,Medium trust,0.5732,597
+Serbia,High trust,0.0924,100
+Serbia,DK/Refused,0.0875,71
+Sierra Leone,Low trust,0.2721,256
+Sierra Leone,Medium trust,0.4025,419
+Sierra Leone,High trust,0.1367,166
+Sierra Leone,DK/Refused,0.1887,159
+Singapore,Low trust,0.1413,163
+Singapore,Medium trust,0.5059,495
+Singapore,High trust,0.2212,220
+Singapore,DK/Refused,0.1316,122
+Slovakia,Low trust,0.1607,166
+Slovakia,Medium trust,0.6193,614
+Slovakia,High trust,0.1764,174
+Slovakia,DK/Refused,0.0437,46
+Slovenia,Low trust,0.1707,159
+Slovenia,Medium trust,0.6727,674
+Slovenia,High trust,0.1559,166
+Slovenia,DK/Refused,7e-4,1
+South Africa,Low trust,0.2957,310
+South Africa,Medium trust,0.415,427
+South Africa,High trust,0.1323,118
+South Africa,DK/Refused,0.157,145
+South Korea,Low trust,0.2345,214
+South Korea,Medium trust,0.682,704
+South Korea,High trust,0.0581,70
+South Korea,DK/Refused,0.0254,26
+Spain,Low trust,0.0593,46
+Spain,Medium trust,0.539,536
+Spain,High trust,0.3889,412
+Spain,DK/Refused,0.0129,6
+Sri Lanka,Low trust,0.1155,136
+Sri Lanka,Medium trust,0.5473,613
+Sri Lanka,High trust,0.1336,154
+Sri Lanka,DK/Refused,0.2036,206
+Eswatini,Low trust,0.2366,238
+Eswatini,Medium trust,0.4955,494
+Eswatini,High trust,0.1448,148
+Eswatini,DK/Refused,0.1231,120
+Sweden,Low trust,0.0823,73
+Sweden,Medium trust,0.6287,629
+Sweden,High trust,0.2633,278
+Sweden,DK/Refused,0.0257,20
+Switzerland,Low trust,0.0822,70
+Switzerland,Medium trust,0.7228,697
+Switzerland,High trust,0.1714,213
+Switzerland,DK/Refused,0.0235,20
+Taiwan,Low trust,0.192,175
+Taiwan,Medium trust,0.6615,685
+Taiwan,High trust,0.0437,49
+Taiwan,DK/Refused,0.1028,91
+Tajikistan,Low trust,0.089,91
+Tajikistan,Medium trust,0.406,390
+Tajikistan,High trust,0.4223,440
+Tajikistan,DK/Refused,0.0827,79
+Tanzania,Low trust,0.0889,67
+Tanzania,Medium trust,0.512,529
+Tanzania,High trust,0.3055,312
+Tanzania,DK/Refused,0.0936,92
+Thailand,Low trust,0.0755,82
+Thailand,Medium trust,0.6432,621
+Thailand,High trust,0.0924,88
+Thailand,DK/Refused,0.1889,209
+The Gambia,Low trust,0.1093,122
+The Gambia,Medium trust,0.4245,420
+The Gambia,High trust,0.3358,324
+The Gambia,DK/Refused,0.1305,134
+Togo,Low trust,0.4093,467
+Togo,Medium trust,0.1766,199
+Togo,High trust,0.0097,13
+Togo,DK/Refused,0.4044,321
+Tunisia,Low trust,0.1856,178
+Tunisia,Medium trust,0.4902,500
+Tunisia,High trust,0.1507,156
+Tunisia,DK/Refused,0.1734,167
+Turkey,Low trust,0.2306,233
+Turkey,Medium trust,0.4983,513
+Turkey,High trust,0.1465,144
+Turkey,DK/Refused,0.1246,110
+Turkmenistan,Low trust,0.0637,64
+Turkmenistan,Medium trust,0.6327,662
+Turkmenistan,High trust,0.2242,201
+Turkmenistan,DK/Refused,0.0794,73
+Uganda,Low trust,0.2317,235
+Uganda,Medium trust,0.5019,505
+Uganda,High trust,0.1801,175
+Uganda,DK/Refused,0.0863,85
+Ukraine,Low trust,0.1601,169
+Ukraine,Medium trust,0.623,627
+Ukraine,High trust,0.0962,103
+Ukraine,DK/Refused,0.1207,101
+United Arab Emirates,Low trust,0.0991,103
+United Arab Emirates,Medium trust,0.3888,400
+United Arab Emirates,High trust,0.2669,262
+United Arab Emirates,DK/Refused,0.2452,240
+United Kingdom,Low trust,0.089,83
+United Kingdom,Medium trust,0.5512,549
+United Kingdom,High trust,0.3538,360
+United Kingdom,DK/Refused,0.006,8
+United States,Low trust,0.1285,116
+United States,Medium trust,0.5604,563
+United States,High trust,0.2542,282
+United States,DK/Refused,0.0569,45
+Uruguay,Low trust,0.1684,177
+Uruguay,Medium trust,0.5535,538
+Uruguay,High trust,0.1961,189
+Uruguay,DK/Refused,0.082,96
+Uzbekistan,Low trust,0.0209,23
+Uzbekistan,Medium trust,0.3804,400
+Uzbekistan,High trust,0.5427,525
+Uzbekistan,DK/Refused,0.056,52
+Venezuela,Low trust,0.3317,334
+Venezuela,Medium trust,0.4609,460
+Venezuela,High trust,0.1685,166
+Venezuela,DK/Refused,0.0389,40
+Vietnam,Low trust,0.1721,197
+Vietnam,Medium trust,0.4129,424
+Vietnam,High trust,0.0426,40
+Vietnam,DK/Refused,0.3724,351
+Yemen,Low trust,0.2018,211
+Yemen,Medium trust,0.3737,399
+Yemen,High trust,0.1751,186
+Yemen,DK/Refused,0.2494,204
+Zambia,Low trust,0.3114,302
+Zambia,Medium trust,0.374,419
+Zambia,High trust,0.1719,165
+Zambia,DK/Refused,0.1427,114
+Zimbabwe,Low trust,0.23,227
+Zimbabwe,Medium trust,0.5205,525
+Zimbabwe,High trust,0.1444,150
+Zimbabwe,DK/Refused,0.1051,98

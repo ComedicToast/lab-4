@@ -1,0 +1,395 @@
+---
+title: "Lab 4"
+subtitle: "Shiny R Quarto Dashboards"
+format: 
+  dashboard:
+    orientation: rows
+    nav-buttons: [github]
+    github: https://github.com/ComedicToast/lab-4
+    theme: minty
+embed-resources: true
+editor: source
+logo: Wellcome.png
+logo-alt: Wellcome logo
+execute: 
+  echo: false
+  warning: false
+server: shiny
+---
+
+```{r}
+#| message: false
+library(tidyverse)
+library(readxl)
+library(here)
+library(scales)
+library(ggrepel)
+library(gganimate)
+library(gifski)
+library(viridisLite)
+library(gt)
+library(shiny)
+```
+
+```{r}
+#| label: read-in-preprocessed-data
+
+#this is cleaned data for trust in scientists specifically
+cleaned <- read.csv(here("wgm_cleaned.csv"))
+
+effective_props <- read.csv(here("effective_props.csv"))
+safe_props <- read.csv(here("safe_props.csv"))
+
+#old q2clean
+scientist_high_trust <- read.csv(here("scientist_high_trust.csv"))
+
+scientist_trust_props <- read.csv(here("scientist_trust_props.csv"))
+vaccine_efficiency <- read.csv(here("vaccine_efficiency.csv"))
+vaccine_safety <- read.csv(here("vaccine_safety.csv"))
+```
+
+# Trust in scientists {.tabset}
+
+## {.sidebar}
+
+
+
+## Row - Leaflet Plot {height="60%"}
+{.sidebar}
+```{r}
+selectInput('region', 'Select Region:', 
+            choices = c("All", unique(scientist_high_trust$Region)))
+```
+
+{.content}
+```{r}
+#| title: Histogram
+#| context: server
+
+filtered_data <- reactive({
+  if(input$region == "All") {
+    scientist_high_trust
+  } else {
+    scientist_high_trust %>% 
+      filter(Region == input$region)
+  }
+})
+
+output$plot <- renderPlot({
+  ggplot(filtered_data(), aes(x = `High.trust.in.scientists..`)) +
+    geom_histogram(binwidth = 0.05, fill = "lightgreen", color = "black") +
+    labs(title = paste("High Trust in Scientists -", input$region),
+         x = "Proportion of High Trust",
+         y = "Count") +
+    theme_minimal() +
+    theme(
+      panel.grid.major.x = element_blank(),
+      panel.grid.minor.x = element_blank()
+    )
+})
+```
+
+```{r}
+#| context: output
+plotOutput('plot')
+```
+
+## Row - Info
+
+### Column - Table {width="40%"}
+
+```{r}
+#| label: Table of proportions for  trust in scientists
+#| title: Proportion of trust in scientists by country
+
+
+scientist_trust_props %>% gt()
+```
+
+### Column - Quick info 1 {.fill}
+
+```{r}
+Highest_trust <- scientist_trust_props %>%
+  filter(Response == "High trust") %>%
+  slice_max(Weighted_prop, n=1)
+
+Mediumest_trust <- scientist_trust_props %>%
+  filter(Response == "Medium trust") %>%
+  slice_max(Weighted_prop, n=1)
+
+Lowest_trust <- scientist_trust_props %>%
+  filter(Response == "Low trust") %>%
+  slice_max(Weighted_prop, n=1)
+```
+
+
+::: {.valuebox color="green" icon="person-check-fill"}
+Highest "High Trust" percent:
+
+<span style="font-size: 3em;">`{r}  Highest_trust$Country`
+
+<span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Highest_trust$Weighted_prop, accuracy=0.01)`
+
+:::
+
+### Column - Quick info 2{.fill}
+::: {.valuebox color="green" icon="person-dash-fill"}
+Highest "Med. Trust" percent:
+
+<span style="font-size: 3em;">`{r}  Mediumest_trust$Country`
+
+<span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Mediumest_trust$Weighted_prop, accuracy=0.01)`
+
+:::
+### Column - Quick info 3 {.fill}
+::: {.valuebox color="green" icon="person-fill-exclamation"}
+Highest "Low Trust" percent:
+
+<span style="font-size: 3em;">`{r}  Lowest_trust$Country`
+
+<span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Lowest_trust$Weighted_prop, accuracy=0.01)`
+
+:::
+
+# Vaccines 
+
+
+## Row - Vaccine Graphics {.tabset height="60%"}
+
+
+```{r}
+#| label: top and bottom 5 from each region
+top5bot5 <- vaccine_safety %>% 
+    group_by(Region) %>%
+    mutate(rank = rank(pct_vaccines_safe)) %>%
+    filter(rank <= 5 | rank > n() - 5) %>%
+    ungroup()
+
+medians <- vaccine_safety %>% 
+        group_by(Region) %>% 
+        summarize(median_value = median(pct_vaccines_safe)) %>%
+        mutate(y = Inf, label = paste0(scales::percent(median_value, 
+                                                       accuracy = 0.1)))
+```
+
+```{r}
+#| label: labels for each region
+label_data <- vaccine_safety  %>%
+  group_by(Region) %>%
+  slice_max(pct_vaccines_safe, n = 1) %>%  
+  ungroup()
+```
+
+```{r}
+#| label: new-and-improved-visualization
+#| cache: true
+#| title: Vaccine Safety
+test <- vaccine_safety  %>%
+  ggplot(aes(x = pct_vaccines_safe, y=reorder(country, pct_vaccines_safe))) +
+  geom_vline(
+    data = medians,
+    aes(xintercept = median_value),
+    linetype = "dashed",
+    color = "black",
+    linewidth = 0.7
+  ) +
+  geom_point(aes(color = Region), show.legend = FALSE) +
+  geom_text_repel(data = top5bot5,
+                  aes(x = pct_vaccines_safe, y = country, label=country),
+                  size = 3,
+                  nudge_x = 0.1,
+                  nudge_y = -0.1,
+                  direction = "y",
+                  segment.color = "azure4",
+                  color = "gray50",
+                  box.padding = 0.35,
+                  max.overlaps = 20,
+                  max.time =	3,
+    ) +
+  geom_text(
+    data = medians,
+    aes(x = median_value, y = y, label = label),
+    vjust = 0,
+    hjust = 0.5,
+    size = 3,
+    color = "black"
+  ) +
+  geom_text(
+    data = label_data,
+    aes(x = 0.5, y = Inf, label = Region, color = Region),
+    vjust = 2,
+    size = 6.5,
+    fontface = "bold",
+    show.legend = FALSE,
+    inherit.aes = FALSE
+  ) +
+  theme_minimal() +
+  theme(
+    strip.text = element_text(face = "bold", size = 10),
+    panel.grid.minor.x = element_blank(), 
+    axis.text.y= element_blank(),
+    axis.ticks.y = element_blank(),
+    panel.spacing = unit(1, "lines"),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor.y = element_blank(),
+    plot.margin = margin(15, 25, 15, 15)
+  ) +
+  labs(
+    title = "Percentage of people across countries who
+    believes vaccines are safe",
+    subtitle = "Dashed line is the median for the region",
+    x = "Percentage who believe vaccines are safe",
+    y = ""
+  ) +
+  scale_x_continuous(labels = percent_format(scale=100),
+                     breaks = seq(0.4, 1, by = 0.2),
+                     expand = expansion(mult = c(0.05, 0.15))) +
+  scale_color_brewer(palette = "Greens", direction = -1) +
+                     coord_cartesian(clip = "off") +
+                     transition_states(Region, transition_length = 0,
+                                       state_length = 10)
+
+animate(test, nframes = 60, duration = 30)
+```
+
+
+
+```{r}
+region_response_props <- vaccine_efficiency %>%
+  group_by(Region, Response) %>%
+  summarise(RegionCounts = sum(Counts)) %>%
+  mutate(Proportion = RegionCounts / sum(RegionCounts))
+
+region_response_props <- region_response_props %>%
+   mutate(Response = factor(Response, levels = c(
+    "Strongly agree",
+    "Somewhat agree",
+    "Neither agree nor disagree",
+    "Somewhat disagree",
+    "Strongly disagree",
+    "Don't know/Refused"
+  )))
+```
+
+```{r}
+label_data <- region_response_props %>%
+  group_by(Region) %>%
+  slice_max(RegionCounts, n = 1) %>%  
+  ungroup()
+```
+
+```{r}
+#| label: third-improved-visualization
+#| cache: true
+#| title: Vaccine Efficiency
+p <- ggplot(region_response_props, aes(x = factor(Response, c(
+    "Strongly agree",
+    "Somewhat agree",
+    "Neither agree nor disagree",
+    "Somewhat disagree",
+    "Strongly disagree",
+    "Don't know/Refused")), y = Proportion, fill = Response)) +
+     geom_col() +
+  # geom_text(aes(label = scales::percent(Proportion, accuracy = 1), group=Response),
+  #         hjust = -0.1,  
+  #         size = 4,      
+  #         color = "black",
+  #         fontface = "bold") +
+     scale_fill_brewer(palette = "Greens", direction = -1) +
+     labs(title = "Belief in the statement: \"Vaccines are effective.\"",
+          subtitle = "Region: {closest_state}",
+       x = "", y = "") +
+     scale_y_continuous(labels = scales::percent_format()) +
+     coord_flip() +
+     theme_minimal() +
+     theme(legend.position = "none",
+        panel.grid.major.y = element_blank(),
+        panel.grid.minor.x = element_blank(),
+        plot.title.position = "plot",
+        plot.title = element_text(size = 20, hjust = 0),
+        plot.subtitle = element_text(size = 15, hjust = 0, face="bold"),
+        axis.text.y = element_text(size = 9,, color = "black")) +
+     transition_states(Region, transition_length = 4, state_length = 2) +
+     ease_aes('cubic-in-out')
+
+animate(p, fps = 10, duration = 50)
+```
+
+## Row - Info {height="40%"}
+
+### Column - Table2 {.tabset width="40%"}
+
+```{r}
+#| label: Table of proportions for vaccine safety
+#| title: Are vaccines safe?
+
+safe_props %>% gt()
+```
+
+```{r}
+#| title: Are vaccines effective?
+#| label: Table of proportions for vaccine efficiency
+
+effective_props %>% gt()
+```
+
+### Column - Quick info 2 {width="60%"}
+
+```{r}
+Highest_safe_agree <- safe_props %>%
+  filter(Response == "Strongly agree") %>%
+  slice_max(Weighted_prop, n=1)
+
+Highest_effective_agree <- effective_props %>%
+  filter(Response == "Strongly agree") %>%
+  slice_max(Weighted_prop, n=1)
+
+Highest_safe_disagree <- safe_props %>%
+  filter(Response == "Strongly disagree") %>%
+  slice_max(Weighted_prop, n=1)
+
+Highest_effective_disagree <- effective_props %>%
+  filter(Response == "Strongly disagree") %>%
+  slice_max(Weighted_prop, n=1)
+```
+
+#### Row - Card Row 1
+
+##### Column - Card 1 {.fill}
+
+::: {.valuebox color="green" icon="cone-striped"}
+Highest percent who strongly agree vaccines are safe:
+
+<span style="font-size: 1.8em;">`{r} Highest_safe_agree$Country`
+`{r} scales::percent(Highest_safe_agree$Weighted_prop, accuracy = 0.01)`
+:::
+
+##### Column - Card 2 {.fill}
+
+::: {.valuebox color="green" icon="check-circle"}
+Highest percent who strongly agree vaccines are effective:
+
+<span style="font-size: 1.8em;">`{r} Highest_effective_agree$Country`
+`{r} scales::percent(Highest_effective_agree$Weighted_prop, accuracy = 0.01)`
+:::
+
+#### Row - Card Row 2
+
+##### Column - Card 3 {.fill}
+
+::: {.valuebox color="green" icon="exclamation-diamond-fill"}
+Highest percent who strongly disagree vaccines are safe:
+
+<span style="font-size: 1.8em;">`{r} Highest_safe_disagree$Country`
+`{r} scales::percent(Highest_safe_disagree$Weighted_prop, accuracy = 0.01)`
+:::
+
+##### Column - Card 4 {.fill}
+
+::: {.valuebox color="green" icon="x-circle"}
+
+Highest percent who strongly disagree vaccines are effective:
+
+<span style="font-size: 1.8em;">`{r} Highest_effective_disagree$Country`
+`{r} scales::percent(Highest_effective_disagree$Weighted_prop, accuracy = 0.01)`
+:::
