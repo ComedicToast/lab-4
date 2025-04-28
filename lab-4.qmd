@@ -65,7 +65,7 @@ sliderInput('binwidth', 'Histogram Bin Width:',
             min = 0.01, max = 0.1, value = 0.03, step = 0.01)
 ```
 
-### Row - Histogram 
+### Row - Histogram {width = "50%"}
 
 
 ```{r}
@@ -82,7 +82,7 @@ filtered_data <- reactive({
 
 output$plot <- renderPlot({
   p <- ggplot(filtered_data(), aes(x = High_trust_in_scientists)) +
-    geom_histogram(binwidth = input$binwidth, fill = "lightgreen", color = "black") +
+    geom_histogram(binwidth = input$binwidth, fill = "#56cc9d", color = "black") +
     labs(title = paste("Wellcome Global Monitor Trust in Scientists Index: High Trust in Scientists -", input$region),
          x = "Proportion of High Trust in Scientists",
          y = "Count") +
@@ -170,25 +170,60 @@ tags$div(
 # Vaccines 
 
 
-## Row - Vaccine Graphics {.tabset height="50%"}
+## Row - Interactive table {height="45%"}
 
+### Checkboxes {.sidebar}
+
+```{r}
+checkboxGroupInput('responses', 'Response', choices = c(unique(vaccine_efficiency$Response)), selected = c("Strongly agree", "Neither agree nor disagree", "Strongly disagree"))
+```
+
+
+```{r}
+#| context: server
+#| label: tables server
+
+output$eff_table <- renderTable({
+  
+  filtered_data <- effective_props
+  
+    filtered_data <- filtered_data %>%
+      filter(Response %in% input$responses)
+
+})
+  
+output$safe_table <- renderTable({
+  filtered_data <- safe_props
+  
+    filtered_data <- filtered_data %>%
+      filter(Response %in% input$responses)
+  
+})
+
+
+```
+
+
+
+### Vaccine safety table {.tabset}
 ```{r}
 #| label: Table of proportions for vaccine safety
 #| title: Are vaccines safe?
 
-safe_props %>% gt()
+tableOutput('safe_table')
 ```
+
 
 ```{r}
 #| title: Are vaccines effective?
 #| label: Table of proportions for vaccine efficiency
 
-effective_props %>% gt()
+tableOutput('eff_table')
 ```
 
-## Row - Info {height="50%"}
+## Row - Graphics and Cards {height="55%"}
 
-### Column - Table2 {.tabset width="45%"}
+### Column - Graphics {.tabset width="45%"}
 
 ```{r}
 #| label: top and bottom 5 from each region
@@ -350,7 +385,7 @@ animate(p, fps = 10, duration = 50)
 
 
 
-### Column - Quick info 2 {width="55%"}
+### Column - Quick info {width="55%"}
 
 ```{r}
 Highest_safe_agree <- safe_props %>%
