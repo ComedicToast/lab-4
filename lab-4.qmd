@@ -62,7 +62,7 @@ selectInput('region', 'Select Region:',
             choices = c("All", unique(scientist_high_trust$Region)))
 
 sliderInput('binwidth', 'Histogram Bin Width:',
-            min = 0.01, max = 0.2, value = 0.05, step = 0.01)
+            min = 0.01, max = 0.1, value = 0.03, step = 0.01)
 ```
 
 ### Row - Histogram 
@@ -70,7 +70,7 @@ sliderInput('binwidth', 'Histogram Bin Width:',
 
 ```{r}
 #| context: server
-library(ggplot2)
+
 filtered_data <- reactive({
   if(input$region == "All") {
     scientist_high_trust
@@ -83,7 +83,7 @@ filtered_data <- reactive({
 output$plot <- renderPlot({
   p <- ggplot(filtered_data(), aes(x = High_trust_in_scientists)) +
     geom_histogram(binwidth = input$binwidth, fill = "lightgreen", color = "black") +
-    labs(title = paste("High Trust in Scientists -", input$region),
+    labs(title = paste("Wellcome Global Monitor Trust in Scientists Index: High Trust in Scientists -", input$region),
          x = "Proportion of High Trust in Scientists",
          y = "Count") +
     theme_minimal() +
@@ -114,52 +114,58 @@ scientist_trust_props %>% gt()
 ```
 
 
-### WAIT
+### Column - Quick info 1 
 
-##### Column - Quick info 1 
 
 ```{r}
-Highest_trust <- scientist_trust_props %>%
-  filter(Response == "High trust") %>%
-  slice_max(Weighted_prop, n=1)
+#| context: server
+#| label: value card server
+output$highest_high_trust <- renderText({
+  
+  filtered_data <- scientist_high_trust
+  
+  if(input$region != "All") {
+    filtered_data <- filtered_data %>%
+      filter(Region == input$region)
+  }
+  
 
-Mediumest_trust <- scientist_trust_props %>%
-  filter(Response == "Medium trust") %>%
-  slice_max(Weighted_prop, n=1)
+  filtered_data <- filtered_data %>%
+    slice_max(High_trust_in_scientists)
+  
+  country <- filtered_data$Country
+  prop <- filtered_data$High_trust_in_scientists
+  
 
-Lowest_trust <- scientist_trust_props %>%
-  filter(Response == "Low trust") %>%
-  slice_max(Weighted_prop, n=1)
+  paste(country, round(prop * 100, 2), "%")
+})
+
+# Add an output for the dynamic title
+output$high_trust_title <- renderText({
+  if(input$region == "All") {
+    "Max \"High Trust\" in Scientists Globally"
+  } else {
+    paste0("Max \"High Trust\" in Scientists in ", input$region)
+  }
+})
 ```
 
 
-::: {.valuebox color="green" icon="person-check-fill"}
-Highest "High Trust" percent:
+```{r}
+#| content: valuebox
+#| color: green
+#| icon: person-check-fill
 
-<span style="font-size: 3em;">`{r}  Highest_trust$Country`
+tags$div(
+  textOutput("high_trust_title"), 
+  style = "font-size: 24px; font-weight: bold;"
+)
+tags$div(
+  textOutput("highest_high_trust"), 
+  style = "font-size: 36px; font-weight: bold;"
+)
+```
 
-`{r}  scales::percent(Highest_trust$Weighted_prop, accuracy=0.01)`
-
-:::
-
-##### Column - Quick info 2{.fill}
-::: {.valuebox color="green" icon="person-dash-fill"}
-Highest "Med. Trust" percent:
-
-<span style="font-size: 3em;">`{r}  Mediumest_trust$Country`
-
-<span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Mediumest_trust$Weighted_prop, accuracy=0.01)`
-
-:::
-##### Column - Quick info 3 {.fill}
-::: {.valuebox color="green" icon="person-fill-exclamation"}
-Highest "Low Trust" percent:
-
-<span style="font-size: 3em;">`{r}  Lowest_trust$Country`
-
-<span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Lowest_trust$Weighted_prop, accuracy=0.01)`
-
-:::
 
 # Vaccines 
 
