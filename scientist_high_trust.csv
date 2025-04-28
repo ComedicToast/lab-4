@@ -1,145 +1,145 @@
-Country,High trust in scientists %
-Afghanistan,0.104
-Albania,0.1021
-Algeria,0.0471
-Argentina,0.2071
-Armenia,0.0591
-Australia,0.3345
-Austria,0.2172
-Azerbaijan,0.1846
-Bangladesh,0.2163
-Belarus,0.0672
-Belgium,0.4237
-Benin,0.1369
-Bolivia,0.0537
-Bosnia and Herzegovina,0.0246
-Botswana,0.2008
-Brazil,0.1319
-Bulgaria,0.1122
-Burkina Faso,0.1296
-Burundi,0.1589
-Cambodia,0.062
-Cameroon,0.1289
-Canada,0.2818
-Chad,0.1007
-Chile,0.1518
-China,0.1877
-Colombia,0.1036
-Comoros,0.1061
-"Congo, Rep.",0.1089
-Costa Rica,0.2181
-Croatia,0.1461
-Cyprus,0.1879
-Czech Republic,0.3257
-Denmark,0.307
-Dominican Republic,0.1373
-Ecuador,0.0763
-Egypt,0.2402
-El Salvador,0.0877
-Estonia,0.2007
-Ethiopia,0.1533
-Finland,0.3507
-France,0.209
-Gabon,0.0856
-Georgia,0.0546
-Germany,0.2468
-Ghana,0.205
-Greece,0.0951
-Guatemala,0.0807
-Guinea,0.2791
-Haiti,0.1127
-Honduras,0.1189
-Hungary,0.1241
-Iceland,0.3171
-India,0.2114
-Indonesia,0.0824
-Iran,0.1915
-Iraq,0.1873
-Ireland,0.3864
-Israel,0.2639
-Italy,0.1657
-Ivory Coast,0.0456
-Japan,0.1144
-Jordan,0.1572
-Kazakhstan,0.1835
-Kenya,0.0992
-Kosovo,0.1028
-Kuwait,0.1985
-Kyrgyzstan,0.1072
-Laos,0.1572
-Latvia,0.0776
-Lebanon,0.1958
-Liberia,0.2107
-Libya,0.1983
-Lithuania,0.1673
-Luxembourg,0.2051
-Macedonia,0.0535
-Madagascar,0.1007
-Malawi,0.2171
-Malaysia,0.142
-Mali,0.2032
-Malta,0.3381
-Mauritania,0.0262
-Mauritius,0.0992
-Mexico,0.1125
-Moldova,0.0486
-Mongolia,0.1137
-Montenegro,0.0298
-Morocco,0.1438
-Mozambique,0.2636
-Myanmar,0.2949
-Namibia,0.0648
-Nepal,0.1446
-Netherlands,0.2843
-New Zealand,0.3205
-Nicaragua,0.0769
-Niger,0.3901
-Nigeria,0.1862
-Northern Cyprus,0.1402
-Norway,0.3776
-Pakistan,0.107
-Palestine,0.1576
-Panama,0.0724
-Paraguay,0.0826
-Peru,0.0517
-Philippines,0.319
-Poland,0.189
-Portugal,0.3364
-Romania,0.2147
-Russia,0.1357
-Rwanda,0.2155
-Saudi Arabia,0.2755
-Senegal,0.1146
-Serbia,0.0924
-Sierra Leone,0.1367
-Singapore,0.2212
-Slovakia,0.1764
-Slovenia,0.1559
-South Africa,0.1323
-South Korea,0.0581
-Spain,0.3889
-Sri Lanka,0.1336
-Eswatini,0.1448
-Sweden,0.2633
-Switzerland,0.1714
-Taiwan,0.0437
-Tajikistan,0.4223
-Tanzania,0.3055
-Thailand,0.0924
-The Gambia,0.3358
-Togo,0.0097
-Tunisia,0.1507
-Turkey,0.1465
-Turkmenistan,0.2242
-Uganda,0.1801
-Ukraine,0.0962
-United Arab Emirates,0.2669
-United Kingdom,0.3538
-United States,0.2542
-Uruguay,0.1961
-Uzbekistan,0.5427
-Venezuela,0.1685
-Vietnam,0.0426
-Yemen,0.1751
-Zambia,0.1719
-Zimbabwe,0.1444
+Country,High trust in scientists %,Region
+Afghanistan,0.104,South Asia
+Albania,0.1021,Southern Europe
+Algeria,0.0471,North Africa
+Argentina,0.2071,South America
+Armenia,0.0591,Central Asia
+Australia,0.3345,Aus/NZ
+Austria,0.2172,Western Europe
+Azerbaijan,0.1846,Central Asia
+Bangladesh,0.2163,South Asia
+Belarus,0.0672,Eastern Europe
+Belgium,0.4237,Western Europe
+Benin,0.1369,Western Africa
+Bolivia,0.0537,South America
+Bosnia and Herzegovina,0.0246,Southern Europe
+Botswana,0.2008,Southern Africa
+Brazil,0.1319,South America
+Bulgaria,0.1122,Eastern Europe
+Burkina Faso,0.1296,Western Africa
+Burundi,0.1589,Eastern Africa
+Cambodia,0.062,Southeast Asia
+Cameroon,0.1289,Central Africa
+Canada,0.2818,Northern America
+Chad,0.1007,Central Africa
+Chile,0.1518,South America
+China,0.1877,East Asia
+Colombia,0.1036,South America
+Comoros,0.1061,Eastern Africa
+"Congo, Rep.",0.1089,Not assigned
+Costa Rica,0.2181,Central America and Mexico
+Croatia,0.1461,Southern Europe
+Cyprus,0.1879,Southern Europe
+Czech Republic,0.3257,Eastern Europe
+Denmark,0.307,Northern Europe
+Dominican Republic,0.1373,Central America and Mexico
+Ecuador,0.0763,South America
+Egypt,0.2402,North Africa
+El Salvador,0.0877,Central America and Mexico
+Estonia,0.2007,Northern Europe
+Ethiopia,0.1533,Eastern Africa
+Finland,0.3507,Northern Europe
+France,0.209,Western Europe
+Gabon,0.0856,Central Africa
+Georgia,0.0546,Central Asia
+Germany,0.2468,Western Europe
+Ghana,0.205,Western Africa
+Greece,0.0951,Southern Europe
+Guatemala,0.0807,Central America and Mexico
+Guinea,0.2791,Western Africa
+Haiti,0.1127,Central America and Mexico
+Honduras,0.1189,Central America and Mexico
+Hungary,0.1241,Eastern Europe
+Iceland,0.3171,Northern Europe
+India,0.2114,South Asia
+Indonesia,0.0824,Southeast Asia
+Iran,0.1915,Middle East
+Iraq,0.1873,Middle East
+Ireland,0.3864,Northern Europe
+Israel,0.2639,Middle East
+Italy,0.1657,Southern Europe
+Ivory Coast,0.0456,Western Africa
+Japan,0.1144,East Asia
+Jordan,0.1572,Middle East
+Kazakhstan,0.1835,Central Asia
+Kenya,0.0992,Eastern Africa
+Kosovo,0.1028,Not assigned
+Kuwait,0.1985,Middle East
+Kyrgyzstan,0.1072,Central Asia
+Laos,0.1572,Southeast Asia
+Latvia,0.0776,Northern Europe
+Lebanon,0.1958,Middle East
+Liberia,0.2107,Western Africa
+Libya,0.1983,North Africa
+Lithuania,0.1673,Northern Europe
+Luxembourg,0.2051,Western Europe
+Macedonia,0.0535,Southern Europe
+Madagascar,0.1007,Eastern Africa
+Malawi,0.2171,Eastern Africa
+Malaysia,0.142,Southeast Asia
+Mali,0.2032,Western Africa
+Malta,0.3381,Southern Europe
+Mauritania,0.0262,Western Africa
+Mauritius,0.0992,Eastern Africa
+Mexico,0.1125,Central America and Mexico
+Moldova,0.0486,Eastern Europe
+Mongolia,0.1137,East Asia
+Montenegro,0.0298,Southern Europe
+Morocco,0.1438,North Africa
+Mozambique,0.2636,Eastern Africa
+Myanmar,0.2949,Southeast Asia
+Namibia,0.0648,Southern Africa
+Nepal,0.1446,South Asia
+Netherlands,0.2843,Western Europe
+New Zealand,0.3205,Aus/NZ
+Nicaragua,0.0769,Central America and Mexico
+Niger,0.3901,Western Africa
+Nigeria,0.1862,Western Africa
+Northern Cyprus,0.1402,Not assigned
+Norway,0.3776,Northern Europe
+Pakistan,0.107,South Asia
+Palestine,0.1576,Not assigned
+Panama,0.0724,Central America and Mexico
+Paraguay,0.0826,South America
+Peru,0.0517,South America
+Philippines,0.319,Southeast Asia
+Poland,0.189,Eastern Europe
+Portugal,0.3364,Southern Europe
+Romania,0.2147,Eastern Europe
+Russia,0.1357,Eastern Europe
+Rwanda,0.2155,Eastern Africa
+Saudi Arabia,0.2755,Middle East
+Senegal,0.1146,Western Africa
+Serbia,0.0924,Southern Europe
+Sierra Leone,0.1367,Western Africa
+Singapore,0.2212,Southeast Asia
+Slovakia,0.1764,Eastern Europe
+Slovenia,0.1559,Southern Europe
+South Africa,0.1323,Southern Africa
+South Korea,0.0581,East Asia
+Spain,0.3889,Southern Europe
+Sri Lanka,0.1336,South Asia
+Eswatini,0.1448,Southern Africa
+Sweden,0.2633,Northern Europe
+Switzerland,0.1714,Western Europe
+Taiwan,0.0437,East Asia
+Tajikistan,0.4223,Central Asia
+Tanzania,0.3055,Eastern Africa
+Thailand,0.0924,Southeast Asia
+The Gambia,0.3358,Western Africa
+Togo,0.0097,Western Africa
+Tunisia,0.1507,North Africa
+Turkey,0.1465,Middle East
+Turkmenistan,0.2242,Central Asia
+Uganda,0.1801,Eastern Africa
+Ukraine,0.0962,Eastern Europe
+United Arab Emirates,0.2669,Middle East
+United Kingdom,0.3538,Northern Europe
+United States,0.2542,Northern America
+Uruguay,0.1961,South America
+Uzbekistan,0.5427,Central Asia
+Venezuela,0.1685,South America
+Vietnam,0.0426,Southeast Asia
+Yemen,0.1751,Middle East
+Zambia,0.1719,Eastern Africa
+Zimbabwe,0.1444,Eastern Africa

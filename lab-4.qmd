@@ -7,7 +7,6 @@ format:
     nav-buttons: [github]
     github: https://github.com/ComedicToast/lab-4
     theme: minty
-embed-resources: true
 editor: source
 logo: Wellcome.png
 logo-alt: Wellcome logo
@@ -19,7 +18,9 @@ server: shiny
 
 ```{r}
 #| message: false
+#| context: setup
 library(tidyverse)
+library(ggplot2)
 library(readxl)
 library(here)
 library(scales)
@@ -29,10 +30,7 @@ library(gifski)
 library(viridisLite)
 library(gt)
 library(shiny)
-```
 
-```{r}
-#| label: read-in-preprocessed-data
 
 #this is cleaned data for trust in scientists specifically
 cleaned <- read.csv(here("wgm_cleaned.csv"))
@@ -41,31 +39,38 @@ effective_props <- read.csv(here("effective_props.csv"))
 safe_props <- read.csv(here("safe_props.csv"))
 
 #old q2clean
-scientist_high_trust <- read.csv(here("scientist_high_trust.csv"))
+scientist_high_trust <- read.csv(here("scientist_high_trust.csv")) %>%
+  dplyr::rename(High_trust_in_scientists =  High.trust.in.scientists..)
 
 scientist_trust_props <- read.csv(here("scientist_trust_props.csv"))
 vaccine_efficiency <- read.csv(here("vaccine_efficiency.csv"))
 vaccine_safety <- read.csv(here("vaccine_safety.csv"))
 ```
 
-# Trust in scientists {.tabset}
 
-## {.sidebar}
-
+# Trust in scientists 
 
 
-## Row - Leaflet Plot {height="60%"}
-{.sidebar}
+
+## Divider
+
+
+### sidebar {.sidebar}
+
 ```{r}
 selectInput('region', 'Select Region:', 
             choices = c("All", unique(scientist_high_trust$Region)))
+
+sliderInput('binwidth', 'Histogram Bin Width:',
+            min = 0.01, max = 0.2, value = 0.05, step = 0.01)
 ```
 
-{.content}
-```{r}
-#| title: Histogram
-#| context: server
+### Row - Histogram 
 
+
+```{r}
+#| context: server
+library(ggplot2)
 filtered_data <- reactive({
   if(input$region == "All") {
     scientist_high_trust
@@ -76,27 +81,29 @@ filtered_data <- reactive({
 })
 
 output$plot <- renderPlot({
-  ggplot(filtered_data(), aes(x = `High.trust.in.scientists..`)) +
-    geom_histogram(binwidth = 0.05, fill = "lightgreen", color = "black") +
+  p <- ggplot(filtered_data(), aes(x = High_trust_in_scientists)) +
+    geom_histogram(binwidth = input$binwidth, fill = "lightgreen", color = "black") +
     labs(title = paste("High Trust in Scientists -", input$region),
-         x = "Proportion of High Trust",
+         x = "Proportion of High Trust in Scientists",
          y = "Count") +
     theme_minimal() +
     theme(
       panel.grid.major.x = element_blank(),
       panel.grid.minor.x = element_blank()
     )
+  
+  p
 })
 ```
 
 ```{r}
-#| context: output
 plotOutput('plot')
 ```
 
-## Row - Info
 
-### Column - Table {width="40%"}
+
+
+## Column - Table {width="40%"}
 
 ```{r}
 #| label: Table of proportions for  trust in scientists
@@ -106,7 +113,10 @@ plotOutput('plot')
 scientist_trust_props %>% gt()
 ```
 
-### Column - Quick info 1 {.fill}
+
+### WAIT
+
+##### Column - Quick info 1 
 
 ```{r}
 Highest_trust <- scientist_trust_props %>%
@@ -128,11 +138,11 @@ Highest "High Trust" percent:
 
 <span style="font-size: 3em;">`{r}  Highest_trust$Country`
 
-<span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Highest_trust$Weighted_prop, accuracy=0.01)`
+`{r}  scales::percent(Highest_trust$Weighted_prop, accuracy=0.01)`
 
 :::
 
-### Column - Quick info 2{.fill}
+##### Column - Quick info 2{.fill}
 ::: {.valuebox color="green" icon="person-dash-fill"}
 Highest "Med. Trust" percent:
 
@@ -141,7 +151,7 @@ Highest "Med. Trust" percent:
 <span style="font-size: 1.5em; font-weight: bold;">`{r}  scales::percent(Mediumest_trust$Weighted_prop, accuracy=0.01)`
 
 :::
-### Column - Quick info 3 {.fill}
+##### Column - Quick info 3 {.fill}
 ::: {.valuebox color="green" icon="person-fill-exclamation"}
 Highest "Low Trust" percent:
 
@@ -154,8 +164,25 @@ Highest "Low Trust" percent:
 # Vaccines 
 
 
-## Row - Vaccine Graphics {.tabset height="60%"}
+## Row - Vaccine Graphics {.tabset height="50%"}
 
+```{r}
+#| label: Table of proportions for vaccine safety
+#| title: Are vaccines safe?
+
+safe_props %>% gt()
+```
+
+```{r}
+#| title: Are vaccines effective?
+#| label: Table of proportions for vaccine efficiency
+
+effective_props %>% gt()
+```
+
+## Row - Info {height="50%"}
+
+### Column - Table2 {.tabset width="45%"}
 
 ```{r}
 #| label: top and bottom 5 from each region
@@ -315,25 +342,9 @@ p <- ggplot(region_response_props, aes(x = factor(Response, c(
 animate(p, fps = 10, duration = 50)
 ```
 
-## Row - Info {height="40%"}
 
-### Column - Table2 {.tabset width="40%"}
 
-```{r}
-#| label: Table of proportions for vaccine safety
-#| title: Are vaccines safe?
-
-safe_props %>% gt()
-```
-
-```{r}
-#| title: Are vaccines effective?
-#| label: Table of proportions for vaccine efficiency
-
-effective_props %>% gt()
-```
-
-### Column - Quick info 2 {width="60%"}
+### Column - Quick info 2 {width="55%"}
 
 ```{r}
 Highest_safe_agree <- safe_props %>%
