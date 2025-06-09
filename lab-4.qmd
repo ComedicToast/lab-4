@@ -61,8 +61,8 @@ vaccine_safety <- read.csv(here("vaccine_safety.csv"))
 selectInput('region', 'Select Region:', 
             choices = c("All", unique(scientist_high_trust$Region)))
 
-sliderInput('binwidth', 'Histogram Bin Width:',
-            min = 0.01, max = 0.1, value = 0.03, step = 0.01)
+sliderInput('adjust', 'Density Smoothing:',
+            min = 0.5, max = 2.0, value = 0.5, step = 0.1)
 ```
 
 ### Row - Histogram {width = "50%"}
@@ -82,10 +82,10 @@ filtered_data <- reactive({
 
 output$plot <- renderPlot({
   p <- ggplot(filtered_data(), aes(x = High_trust_in_scientists)) +
-    geom_histogram(binwidth = input$binwidth, fill = "#56cc9d", color = "black") +
+    geom_density(fill = "#56cc9d", color = "black", adjust = input$adjust) +
     labs(title = paste("Wellcome Global Monitor Trust in Scientists Index: High Trust in Scientists -", input$region),
          x = "Proportion of High Trust in Scientists",
-         y = "Count") +
+         y = "Density") +
     theme_minimal() +
     theme(
       panel.grid.major.x = element_blank(),

@@ -1,0 +1,15 @@
+name: lab-4
+title: lab-4
+username: ywnwdr-zachary-felix
+account: ywnwdr-zachary-felix
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14638015
+bundleId: 10195785
+url: https://ywnwdr-zachary-felix.shinyapps.io/lab-4/
+version: 1
+quarto_version: 1.5.57
+quarto_engines: knitr
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: wgm2018.xlsx|shiny example_files
